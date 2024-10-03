@@ -22,7 +22,6 @@ class Destination(models.Model):
     short_description = models.TextField(max_length=500, blank=True)
     location = models.CharField(max_length=255)
     category = models.ForeignKey(Category, related_name='destinations', on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='destinations/', blank=True, null=True)
     video_url = models.URLField(blank=True, null=True)
     entrance_fee = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
     opening_hours = models.CharField(max_length=100, blank=True, null=True)
@@ -33,3 +32,11 @@ class Destination(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class DestinationImage(models.Model):
+    destination = models.ForeignKey(Destination, related_name='images', on_delete=models.CASCADE)
+    image = models.ImageField(upload_to='destinations/images/', blank=True, null=False)
+
+    def __str__(self):
+        return f"Image for {self.destination.name}"

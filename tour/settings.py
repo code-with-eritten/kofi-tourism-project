@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # other apps
     'markdownx',
-
+'django_filters',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
