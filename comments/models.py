@@ -1,5 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.db import models
+from destinations.models import Destination
+
 
 User = get_user_model()
 
@@ -8,6 +10,7 @@ User = get_user_model()
 
 class Comment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
+    destination = models.ForeignKey(Destination, on_delete=models.CASCADE)
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)

@@ -1,0 +1,129 @@
+INFO 2024-10-11 03:06:41,199 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 03:06:42,098 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 03:06:42,102 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 03:08:04,117 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-10-11 03:08:05,036 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 03:08:06,492 utils (0.015) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 03:08:06,502 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 03:09:17,065 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 11:46:30,033 autoreload C:\Users\User\Desktop\projects\tour\users\serializers.py changed, reloading.
+INFO 2024-10-11 11:46:31,643 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 11:47:51,823 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 11:49:13,107 autoreload C:\Users\User\Desktop\projects\tour\users\serializers.py changed, reloading.
+INFO 2024-10-11 11:49:14,419 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 11:50:47,869 autoreload C:\Users\User\Desktop\projects\tour\users\serializers.py changed, reloading.
+INFO 2024-10-11 11:50:49,019 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 11:50:50,223 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 11:50:50,226 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 11:51:22,580 autoreload C:\Users\User\Desktop\projects\tour\users\serializers.py changed, reloading.
+INFO 2024-10-11 11:51:23,569 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 11:51:24,715 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 11:51:24,718 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 11:51:33,044 autoreload C:\Users\User\Desktop\projects\tour\users\serializers.py changed, reloading.
+INFO 2024-10-11 11:51:34,254 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 11:51:35,389 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 11:51:35,392 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 11:51:42,707 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 11:51:43,689 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 11:51:43,693 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+WARNING 2024-10-11 11:51:53,168 basehttp "GET /api-v1/users HTTP/1.1" 404 3966
+WARNING 2024-10-11 11:52:34,204 basehttp "GET /users HTTP/1.1" 404 2953
+WARNING 2024-10-11 11:53:05,324 basehttp "GET /users/ HTTP/1.1" 404 3084
+WARNING 2024-10-11 11:53:12,101 basehttp "GET /users/users HTTP/1.1" 404 3099
+INFO 2024-10-11 12:02:13,673 basehttp "GET /auth/users HTTP/1.1" 301 0
+DEBUG 2024-10-11 12:02:13,678 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-11 19:02:13.676686' AND "django_session"."session_key" = 'zlh0hejiotl9fb4lm882b827ool4mv3l') LIMIT 21; args=('2024-10-11 19:02:13.676686', 'zlh0hejiotl9fb4lm882b827ool4mv3l'); alias=default
+DEBUG 2024-10-11 12:02:13,679 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 12:02:13,681 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user"; args=(); alias=default
+INFO 2024-10-11 12:02:13,830 basehttp "GET /auth/users/ HTTP/1.1" 200 11281
+INFO 2024-10-11 12:02:13,984 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-10-11 12:02:13,994 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-10-11 12:02:14,004 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-10-11 12:02:14,016 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-10-11 12:02:14,038 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-10-11 12:02:14,087 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-10-11 12:02:14,088 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-10-11 12:02:14,127 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-10-11 12:02:14,133 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-10-11 12:02:14,155 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-10-11 12:02:14,161 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-10-11 12:02:14,164 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-10-11 12:07:27,417 basehttp "GET /authenticate HTTP/1.1" 301 0
+WARNING 2024-10-11 12:07:27,465 basehttp "GET /authenticate/ HTTP/1.1" 405 7610
+DEBUG 2024-10-11 12:07:44,697 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."email" = 'eritten2@gmail.com' LIMIT 21; args=('eritten2@gmail.com',); alias=default
+INFO 2024-10-11 12:07:45,931 basehttp "POST /authenticate/ HTTP/1.1" 200 8054
+WARNING 2024-10-11 12:08:29,654 basehttp "GET /users/1 HTTP/1.1" 404 3087
+INFO 2024-10-11 12:08:53,773 basehttp "GET /auth/users/1 HTTP/1.1" 301 0
+DEBUG 2024-10-11 12:08:53,799 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-11 19:08:53.797783' AND "django_session"."session_key" = 'zlh0hejiotl9fb4lm882b827ool4mv3l') LIMIT 21; args=('2024-10-11 19:08:53.797783', 'zlh0hejiotl9fb4lm882b827ool4mv3l'); alias=default
+DEBUG 2024-10-11 12:08:53,800 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 12:08:53,801 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 12:08:53,812 basehttp "GET /auth/users/1/ HTTP/1.1" 200 10984
+DEBUG 2024-10-11 12:11:14,089 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-11 19:11:14.088483' AND "django_session"."session_key" = 'zlh0hejiotl9fb4lm882b827ool4mv3l') LIMIT 21; args=('2024-10-11 19:11:14.088483', 'zlh0hejiotl9fb4lm882b827ool4mv3l'); alias=default
+DEBUG 2024-10-11 12:11:14,090 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 12:11:14,091 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 12:11:14,266 utils (0.000) UPDATE "users_user" SET "password" = 'pbkdf2_sha256$870000$VmQ6u6L8kD5lzOJvO7jLk8$8zaZPRYD1YY3sBvDgIwG8Dt9UHbX66mwvb84A5MfX6s=', "last_login" = '2024-10-11 09:57:27.317736', "is_superuser" = 1, "email" = 'eritten2@gmail.com', "fullname" = 'eritten kwame gyau', "is_active" = 1, "is_staff" = 1, "is_verified" = 0, "profile_image_url" = 'profile-images/Gerktech_Youtube_Thumbmail.png', "telephone" = '0245128243', "date_joined" = '2024-10-04 07:33:17.476920', "verificationCode" = NULL WHERE "users_user"."id" = 1; args=('pbkdf2_sha256$870000$VmQ6u6L8kD5lzOJvO7jLk8$8zaZPRYD1YY3sBvDgIwG8Dt9UHbX66mwvb84A5MfX6s=', '2024-10-11 09:57:27.317736', True, 'eritten2@gmail.com', 'eritten kwame gyau', True, True, False, 'profile-images/Gerktech_Youtube_Thumbmail.png', '0245128243', '2024-10-04 07:33:17.476920', 1); alias=default
+INFO 2024-10-11 12:11:14,273 basehttp "PUT /auth/users/1/ HTTP/1.1" 200 11298
+WARNING 2024-10-11 12:14:48,630 basehttp "GET /profile-images/Gerktech_Youtube_Thumbmail.png HTTP/1.1" 404 3073
+INFO 2024-10-11 12:17:03,677 autoreload C:\Users\User\Desktop\projects\tour\tour\settings.py changed, reloading.
+INFO 2024-10-11 12:17:05,213 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 12:17:06,173 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 12:17:06,177 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 12:17:17,448 autoreload C:\Users\User\Desktop\projects\tour\tour\settings.py changed, reloading.
+INFO 2024-10-11 12:17:18,398 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 12:17:19,309 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 12:17:19,312 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 12:17:24,905 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 12:17:25,826 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 12:17:25,829 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+WARNING 2024-10-11 12:17:34,696 basehttp "GET /profile-images/Gerktech_Youtube_Thumbmail.png HTTP/1.1" 404 3073
+INFO 2024-10-11 12:19:56,924 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-10-11 12:19:58,370 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 12:19:59,577 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 12:19:59,580 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 12:20:32,764 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-10-11 12:20:33,735 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 12:20:34,807 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 12:20:34,810 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+WARNING 2024-10-11 12:20:59,026 basehttp "GET /profile-images/Gerktech_Youtube_Thumbmail.png HTTP/1.1" 404 3242
+DEBUG 2024-10-11 12:21:02,359 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-11 19:21:02.356311' AND "django_session"."session_key" = 'zlh0hejiotl9fb4lm882b827ool4mv3l') LIMIT 21; args=('2024-10-11 19:21:02.356311', 'zlh0hejiotl9fb4lm882b827ool4mv3l'); alias=default
+DEBUG 2024-10-11 12:21:02,361 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 12:21:02,362 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 12:21:02,422 basehttp "GET /auth/users/1/ HTTP/1.1" 200 11322
+DEBUG 2024-10-11 12:21:23,137 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-11 19:21:23.135439' AND "django_session"."session_key" = 'zlh0hejiotl9fb4lm882b827ool4mv3l') LIMIT 21; args=('2024-10-11 19:21:23.135439', 'zlh0hejiotl9fb4lm882b827ool4mv3l'); alias=default
+DEBUG 2024-10-11 12:21:23,138 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 12:21:23,138 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 12:21:23,226 utils (0.000) UPDATE "users_user" SET "password" = 'pbkdf2_sha256$870000$VmQ6u6L8kD5lzOJvO7jLk8$8zaZPRYD1YY3sBvDgIwG8Dt9UHbX66mwvb84A5MfX6s=', "last_login" = '2024-10-11 09:57:27.317736', "is_superuser" = 1, "email" = 'eritten2@gmail.com', "fullname" = 'eritten kwame gyau', "is_active" = 1, "is_staff" = 1, "is_verified" = 0, "profile_image_url" = 'profile-images/Gerktech_Youtube_Thumbmail.png', "telephone" = '0245128243', "date_joined" = '2024-10-04 07:33:17.476920', "verificationCode" = NULL WHERE "users_user"."id" = 1; args=('pbkdf2_sha256$870000$VmQ6u6L8kD5lzOJvO7jLk8$8zaZPRYD1YY3sBvDgIwG8Dt9UHbX66mwvb84A5MfX6s=', '2024-10-11 09:57:27.317736', True, 'eritten2@gmail.com', 'eritten kwame gyau', True, True, False, 'profile-images/Gerktech_Youtube_Thumbmail.png', '0245128243', '2024-10-04 07:33:17.476920', 1); alias=default
+INFO 2024-10-11 12:21:23,234 basehttp "PUT /auth/users/1/ HTTP/1.1" 200 11322
+INFO 2024-10-11 12:21:32,267 basehttp "GET /media/profile-images/Gerktech_Youtube_Thumbmail.png HTTP/1.1" 200 1375473
