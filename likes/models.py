@@ -12,5 +12,8 @@ class Like(models.Model):
     destination = models.ForeignKey(Destination, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
+    class Meta:
+        unique_together = ('destination', 'user')  # Ensure a user can't like the same destination multiple times
+
     def __str__(self):
-        return self.destination.name
+        return f'{self.user.username} likes {self.destination.name}'

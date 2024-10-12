@@ -11,6 +11,8 @@ urlpatterns = [
     path('auth/', include('djoser.urls.jwt')),  # Djoser JWT URLs
     path('authenticate/', TokenObtainPairView.as_view(), name='token'),
     path('users/', include('users.urls')),
+    path('likes/', include('likes.urls')),
+    path('ckeditor5/', include('django_ckeditor_5.urls')),
 
 ]
 if settings.DEBUG:

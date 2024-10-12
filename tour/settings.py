@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'markdownx',
     'django_filters',
     'rest_framework',
+    #    'ckeditor',
+    'django_ckeditor_5',
 ]
 
 MIDDLEWARE = [
@@ -224,3 +226,5 @@ LOGGING = {
         },
     },
 }
+
+CKEDITOR_5_UPLOADS = 'uploads/'

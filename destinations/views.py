@@ -42,3 +42,25 @@ class DestinationRetrieveView(generics.RetrieveAPIView):
     queryset = Destination.objects.all()
     serializer_class = DestinationDetailSerializer
     lookup_field = 'slug'
+
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from django.db.models import Count
+from .models import Destination
+from .serializers import DestinationListSerializer
+
+class PopularDestinationsView(APIView):
+    """
+    View to list popular destinations based on likes and comments.
+    """
+
+    def get(self, request):
+        popular_destinations = Destination.objects.annotate(
+            like_count=Count('like'),  # Adjusted from 'likes' to 'like'
+            comment_count=Count('comments')
+        ).order_by('-like_count', '-comment_count')[:10]
+
+        serializer = DestinationListSerializer(popular_destinations, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)

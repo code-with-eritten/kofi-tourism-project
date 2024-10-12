@@ -1,7 +1,6 @@
 from django.db import models
 from django.utils.text import slugify
-from markdown_deux import markdown
-
+from django_ckeditor_5.fields import CKEditor5Field
 
 class Amenity(models.Model):
     name = models.CharField(max_length=50)
@@ -13,7 +12,7 @@ class Amenity(models.Model):
 class Hotel(models.Model):
     name = models.CharField(max_length=200)
     slug = models.SlugField(unique=True, blank=True)
-    description = models.TextField()
+    description = CKEditor5Field()
     location = models.CharField(max_length=200)
     rating = models.IntegerField(choices=[(i, i) for i in range(1, 6)])
     price_range = models.CharField(max_length=50)

@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from markdownx.models import MarkdownxField
 from django.core.validators import MinValueValidator, MaxValueValidator
+from django_ckeditor_5.fields import CKEditor5Field
 
 
 class Category(models.Model):
@@ -18,7 +19,7 @@ class Category(models.Model):
 class Destination(models.Model):
     name = models.CharField(max_length=255)
     slug = models.SlugField(unique=True)
-    description = MarkdownxField()
+    description = CKEditor5Field()
     short_description = models.TextField(max_length=500, blank=True)
     location = models.CharField(max_length=255)
     category = models.ForeignKey(Category, related_name='destinations', on_delete=models.CASCADE)
