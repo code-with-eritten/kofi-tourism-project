@@ -1820,3 +1820,511 @@ DEBUG 2024-10-11 19:24:30,195 utils (0.016)
             WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
             ORDER BY name; args=None; alias=default
 DEBUG 2024-10-11 19:24:30,199 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 19:24:56,337 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 02:24:56.336765' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 02:24:56.336765', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 19:24:56,338 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 19:24:56,340 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at", COUNT("likes_like"."id") AS "like_count", COUNT("comments_comment"."id") AS "comment_count" FROM "destinations_destination" LEFT OUTER JOIN "likes_like" ON ("destinations_destination"."id" = "likes_like"."destination_id") LEFT OUTER JOIN "comments_comment" ON ("destinations_destination"."id" = "comments_comment"."destination_id") GROUP BY "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" ORDER BY 15 DESC, 16 DESC LIMIT 10; args=(); alias=default
+INFO 2024-10-11 19:24:56,469 basehttp "GET /api-v1/popular-destinations/ HTTP/1.1" 200 5419
+INFO 2024-10-11 19:24:56,581 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-10-11 19:24:56,590 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-10-11 19:24:56,592 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-10-11 19:24:56,595 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-10-11 19:24:56,614 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-10-11 19:24:56,620 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-10-11 19:24:56,667 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-10-11 19:24:56,672 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-10-11 19:24:56,674 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-10-11 19:24:56,677 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-10-11 19:24:56,719 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-10-11 19:24:56,722 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-10-11 21:59:48,136 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 21:59:48,193 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 21:59:49,090 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 21:59:49,095 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 21:59:50,073 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 21:59:50,076 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:02:03,612 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:02:04,587 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:02:04,803 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:02:05,556 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:02:06,478 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:02:06,481 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:04:48,971 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:04:49,664 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:04:49,844 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:04:50,558 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:04:51,484 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:04:51,487 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:05:01,052 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:05:01,055 utils (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:05:12,474 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,476 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:05:12,477 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,478 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:05:12,497 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,498 utils (0.000) PRAGMA foreign_keys = OFF; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,498 utils (0.000) PRAGMA foreign_keys; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,499 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,501 schema CREATE TABLE "events_eventcategory" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL UNIQUE, "slug" varchar(50) NOT NULL UNIQUE); (params None)
+DEBUG 2024-10-11 22:05:12,508 utils (0.016) CREATE TABLE "events_eventcategory" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL UNIQUE, "slug" varchar(50) NOT NULL UNIQUE); args=None; alias=default
+DEBUG 2024-10-11 22:05:12,511 schema CREATE TABLE "events_event" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(255) NOT NULL, "description" text NOT NULL, "location" varchar(255) NOT NULL, "start_time" datetime NOT NULL, "end_time" datetime NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "category_id" bigint NOT NULL REFERENCES "events_eventcategory" ("id") DEFERRABLE INITIALLY DEFERRED); (params None)
+DEBUG 2024-10-11 22:05:12,511 utils (0.000) CREATE TABLE "events_event" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(255) NOT NULL, "description" text NOT NULL, "location" varchar(255) NOT NULL, "start_time" datetime NOT NULL, "end_time" datetime NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "category_id" bigint NOT NULL REFERENCES "events_eventcategory" ("id") DEFERRABLE INITIALLY DEFERRED); args=None; alias=default
+DEBUG 2024-10-11 22:05:12,512 utils (0.000) PRAGMA foreign_key_check; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,512 schema CREATE INDEX "events_event_category_id_01d3a3ab" ON "events_event" ("category_id"); (params None)
+DEBUG 2024-10-11 22:05:12,512 utils (0.000) CREATE INDEX "events_event_category_id_01d3a3ab" ON "events_event" ("category_id"); args=None; alias=default
+DEBUG 2024-10-11 22:05:12,517 utils (0.000) COMMIT; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,517 utils (0.000) PRAGMA foreign_keys = ON; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,518 utils (0.000) INSERT INTO "django_migrations" ("app", "name", "applied") VALUES ('events', '0001_initial', '2024-10-12 05:05:12.517706') RETURNING "django_migrations"."id"; args=('events', '0001_initial', '2024-10-12 05:05:12.517706'); alias=default
+DEBUG 2024-10-11 22:05:12,523 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:05:12,525 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'destinations'; args=('destinations',); alias=default
+DEBUG 2024-10-11 22:05:12,526 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'destinations' AND "django_content_type"."model" IN ('category', 'destinationimage', 'destination')); args=('destinations', 'category', 'destinationimage', 'destination'); alias=default
+DEBUG 2024-10-11 22:05:12,529 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (1, 2, 3) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(1, 2, 3); alias=default
+DEBUG 2024-10-11 22:05:12,530 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'destinations'; args=('destinations',); alias=default
+DEBUG 2024-10-11 22:05:12,530 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'tour_operators'; args=('tour_operators',); alias=default
+DEBUG 2024-10-11 22:05:12,531 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'tour_operators' AND "django_content_type"."model" IN ('touroperator')); args=('tour_operators', 'touroperator'); alias=default
+DEBUG 2024-10-11 22:05:12,532 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (4) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(4,); alias=default
+DEBUG 2024-10-11 22:05:12,532 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'tour_operators'; args=('tour_operators',); alias=default
+DEBUG 2024-10-11 22:05:12,533 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'events'; args=('events',); alias=default
+DEBUG 2024-10-11 22:05:12,533 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,534 utils (0.000) INSERT INTO "django_content_type" ("app_label", "model") VALUES ('events', 'eventcategory'), ('events', 'event') RETURNING "django_content_type"."id"; args=('events', 'eventcategory', 'events', 'event'); alias=default
+DEBUG 2024-10-11 22:05:12,539 utils (0.015) COMMIT; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,540 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'events' AND "django_content_type"."model" IN ('event', 'eventcategory')); args=('events', 'event', 'eventcategory'); alias=default
+DEBUG 2024-10-11 22:05:12,541 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (17, 18) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(17, 18); alias=default
+DEBUG 2024-10-11 22:05:12,541 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,543 utils (0.000) INSERT INTO "auth_permission" ("name", "content_type_id", "codename") VALUES ('Can add event category', 17, 'add_eventcategory'), ('Can change event category', 17, 'change_eventcategory'), ('Can delete event category', 17, 'delete_eventcategory'), ('Can view event category', 17, 'view_eventcategory'), ('Can add event', 18, 'add_event'), ('Can change event', 18, 'change_event'), ('Can delete event', 18, 'delete_event'), ('Can view event', 18, 'view_event') RETURNING "auth_permission"."id"; args=('Can add event category', 17, 'add_eventcategory', 'Can change event category', 17, 'change_eventcategory', 'Can delete event category', 17, 'delete_eventcategory', 'Can view event category', 17, 'view_eventcategory', 'Can add event', 18, 'add_event', 'Can change event', 18, 'change_event', 'Can delete event', 18, 'delete_event', 'Can view event', 18, 'view_event'); alias=default
+DEBUG 2024-10-11 22:05:12,547 utils (0.000) COMMIT; args=None; alias=default
+DEBUG 2024-10-11 22:05:12,547 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'events'; args=('events',); alias=default
+DEBUG 2024-10-11 22:05:12,548 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'comments'; args=('comments',); alias=default
+DEBUG 2024-10-11 22:05:12,549 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'comments' AND "django_content_type"."model" IN ('comment', 'reply')); args=('comments', 'comment', 'reply'); alias=default
+DEBUG 2024-10-11 22:05:12,550 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (11, 12) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(11, 12); alias=default
+DEBUG 2024-10-11 22:05:12,550 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'comments'; args=('comments',); alias=default
+DEBUG 2024-10-11 22:05:12,551 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'users'; args=('users',); alias=default
+DEBUG 2024-10-11 22:05:12,552 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'users' AND "django_content_type"."model" IN ('user')); args=('users', 'user'); alias=default
+DEBUG 2024-10-11 22:05:12,553 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (5) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(5,); alias=default
+DEBUG 2024-10-11 22:05:12,553 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'users'; args=('users',); alias=default
+DEBUG 2024-10-11 22:05:12,554 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'likes'; args=('likes',); alias=default
+DEBUG 2024-10-11 22:05:12,554 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'likes' AND "django_content_type"."model" IN ('like')); args=('likes', 'like'); alias=default
+DEBUG 2024-10-11 22:05:12,555 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (14) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(14,); alias=default
+DEBUG 2024-10-11 22:05:12,556 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'likes'; args=('likes',); alias=default
+DEBUG 2024-10-11 22:05:12,556 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'accomodation'; args=('accomodation',); alias=default
+DEBUG 2024-10-11 22:05:12,557 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'accomodation' AND "django_content_type"."model" IN ('hotelphoto', 'hotel', 'amenity')); args=('accomodation', 'hotelphoto', 'hotel', 'amenity'); alias=default
+DEBUG 2024-10-11 22:05:12,558 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (16, 13, 15) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(16, 13, 15); alias=default
+DEBUG 2024-10-11 22:05:12,558 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'accomodation'; args=('accomodation',); alias=default
+DEBUG 2024-10-11 22:05:12,559 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',); alias=default
+DEBUG 2024-10-11 22:05:12,559 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'admin' AND "django_content_type"."model" IN ('logentry')); args=('admin', 'logentry'); alias=default
+DEBUG 2024-10-11 22:05:12,560 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (6) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(6,); alias=default
+DEBUG 2024-10-11 22:05:12,561 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',); alias=default
+DEBUG 2024-10-11 22:05:12,561 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',); alias=default
+DEBUG 2024-10-11 22:05:12,562 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" IN ('group', 'permission')); args=('auth', 'group', 'permission'); alias=default
+DEBUG 2024-10-11 22:05:12,563 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (8, 7) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(8, 7); alias=default
+DEBUG 2024-10-11 22:05:12,563 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',); alias=default
+DEBUG 2024-10-11 22:05:12,564 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',); alias=default
+DEBUG 2024-10-11 22:05:12,565 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'contenttypes' AND "django_content_type"."model" IN ('contenttype')); args=('contenttypes', 'contenttype'); alias=default
+DEBUG 2024-10-11 22:05:12,565 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (9) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(9,); alias=default
+DEBUG 2024-10-11 22:05:12,566 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',); alias=default
+DEBUG 2024-10-11 22:05:12,566 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',); alias=default
+DEBUG 2024-10-11 22:05:12,567 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'sessions' AND "django_content_type"."model" IN ('session')); args=('sessions', 'session'); alias=default
+DEBUG 2024-10-11 22:05:12,568 utils (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (10) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(10,); alias=default
+DEBUG 2024-10-11 22:05:12,568 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',); alias=default
+DEBUG 2024-10-11 22:05:12,569 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'markdownx'; args=('markdownx',); alias=default
+DEBUG 2024-10-11 22:05:12,570 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'markdownx'; args=('markdownx',); alias=default
+INFO 2024-10-11 22:18:52,513 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:18:53,422 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:18:53,425 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:20:19,269 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-10-11 22:20:19,324 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-10-11 22:20:20,242 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:20:20,500 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:20:22,231 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:20:22,234 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:20:35,945 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-10-11 22:20:36,439 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-10-11 22:20:36,997 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:20:37,375 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:20:38,211 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:20:38,214 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:21:35,242 autoreload C:\Users\User\Desktop\projects\tour\events\admin.py changed, reloading.
+INFO 2024-10-11 22:21:35,248 autoreload C:\Users\User\Desktop\projects\tour\events\admin.py changed, reloading.
+INFO 2024-10-11 22:21:36,217 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:21:36,245 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:21:44,901 autoreload C:\Users\User\Desktop\projects\tour\events\admin.py changed, reloading.
+INFO 2024-10-11 22:21:47,008 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:21:47,550 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:22:37,668 autoreload C:\Users\User\Desktop\projects\tour\events\admin.py changed, reloading.
+INFO 2024-10-11 22:22:37,951 autoreload C:\Users\User\Desktop\projects\tour\events\admin.py changed, reloading.
+INFO 2024-10-11 22:22:38,576 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:22:38,907 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:22:50,929 autoreload C:\Users\User\Desktop\projects\tour\events\admin.py changed, reloading.
+INFO 2024-10-11 22:22:51,670 autoreload C:\Users\User\Desktop\projects\tour\events\admin.py changed, reloading.
+INFO 2024-10-11 22:22:51,816 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:22:52,618 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:22:53,553 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:22:53,556 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:23:01,999 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:23:02,918 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:23:02,921 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:23:18,492 utils (0.015) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:23:18.488701' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:23:18.488701', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:23:18,494 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:23:18,553 utils (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "users_user" ON ("django_admin_log"."user_id" = "users_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+INFO 2024-10-11 22:23:18,554 basehttp "GET /admin/ HTTP/1.1" 200 14201
+WARNING 2024-10-11 22:26:46,775 basehttp "GET /events/event HTTP/1.1" 404 4569
+INFO 2024-10-11 22:26:57,646 basehttp "GET /events/events HTTP/1.1" 301 0
+DEBUG 2024-10-11 22:26:57,652 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:26:57.649323' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:26:57.649323', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:26:57,653 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:26:57,655 utils (0.000) SELECT "events_event"."id", "events_event"."title", "events_event"."description", "events_event"."category_id", "events_event"."location", "events_event"."start_time", "events_event"."end_time", "events_event"."created_at", "events_event"."updated_at" FROM "events_event"; args=(); alias=default
+INFO 2024-10-11 22:26:57,758 basehttp "GET /events/events/ HTTP/1.1" 200 12454
+INFO 2024-10-11 22:26:57,933 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2024-10-11 22:31:33,667 autoreload C:\Users\User\Desktop\projects\tour\events\views.py changed, reloading.
+INFO 2024-10-11 22:31:34,192 autoreload C:\Users\User\Desktop\projects\tour\events\views.py changed, reloading.
+INFO 2024-10-11 22:31:34,578 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:31:35,209 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:31:35,728 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:31:35,732 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:37:43,606 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:37:43.601113' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:37:43.601113', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:37:43,608 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:37:43,614 utils (0.000) SELECT "events_event"."id", "events_event"."title", "events_event"."description", "events_event"."category_id", "events_event"."location", "events_event"."start_time", "events_event"."end_time", "events_event"."created_at", "events_event"."updated_at" FROM "events_event"; args=(); alias=default
+INFO 2024-10-11 22:37:43,684 basehttp "GET /events/events/?category_= HTTP/1.1" 200 12463
+DEBUG 2024-10-11 22:38:16,247 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:38:16.245574' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:38:16.245574', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:38:16,248 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:38:16,285 utils (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "users_user" ON ("django_admin_log"."user_id" = "users_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+INFO 2024-10-11 22:38:16,286 basehttp "GET /admin/ HTTP/1.1" 200 14201
+DEBUG 2024-10-11 22:39:02,558 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:39:02.557618' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:39:02.557618', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:39:02,560 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:39:02,561 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:39:02,568 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'events' AND "django_content_type"."model" = 'eventcategory') LIMIT 21; args=('events', 'eventcategory'); alias=default
+DEBUG 2024-10-11 22:39:02,569 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-10-11 22:39:02,594 basehttp "GET /admin/events/eventcategory/add/ HTTP/1.1" 200 14933
+DEBUG 2024-10-11 22:39:02,616 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:39:02.614138' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:39:02.614138', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:39:02,618 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:39:02,621 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+DEBUG 2024-10-11 22:39:28,213 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:39:28.211462' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:39:28.211462', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:39:28,214 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:39:28,215 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:39:28,217 utils (0.000) SELECT 1 AS "a" FROM "events_eventcategory" WHERE "events_eventcategory"."name" = 'entertainment' LIMIT 1; args=(1, 'entertainment'); alias=default
+DEBUG 2024-10-11 22:39:28,218 utils (0.000) SELECT 1 AS "a" FROM "events_eventcategory" WHERE "events_eventcategory"."slug" = 'entertainment' LIMIT 1; args=(1, 'entertainment'); alias=default
+DEBUG 2024-10-11 22:39:28,220 utils (0.000) INSERT INTO "events_eventcategory" ("name", "slug") VALUES ('entertainment', 'entertainment') RETURNING "events_eventcategory"."id"; args=('entertainment', 'entertainment'); alias=default
+DEBUG 2024-10-11 22:39:28,221 utils (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2024-10-12 05:39:28.220438', 1, 17, '1', 'entertainment', 1, '[{"added": {}}]') RETURNING "django_admin_log"."id"; args=('2024-10-12 05:39:28.220438', 1, 17, '1', 'entertainment', 1, '[{"added": {}}]'); alias=default
+DEBUG 2024-10-11 22:39:28,227 utils (0.016) COMMIT; args=None; alias=default
+INFO 2024-10-11 22:39:28,228 basehttp "POST /admin/events/eventcategory/add/ HTTP/1.1" 302 0
+DEBUG 2024-10-11 22:39:28,234 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:39:28.232406' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:39:28.232406', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:39:28,235 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:39:28,237 utils (0.000) SELECT COUNT(*) AS "__count" FROM "events_eventcategory"; args=(); alias=default
+DEBUG 2024-10-11 22:39:28,237 utils (0.000) SELECT COUNT(*) AS "__count" FROM "events_eventcategory"; args=(); alias=default
+DEBUG 2024-10-11 22:39:28,239 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory" ORDER BY "events_eventcategory"."id" DESC; args=(); alias=default
+INFO 2024-10-11 22:39:28,269 basehttp "GET /admin/events/eventcategory/ HTTP/1.1" 200 15383
+DEBUG 2024-10-11 22:39:28,285 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:39:28.283270' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:39:28.283270', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:39:28,288 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:39:28,290 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-11 22:39:28,393 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+DEBUG 2024-10-11 22:39:51,971 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:39:51.970526' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:39:51.970526', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:39:51,972 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:39:51,973 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:39:51,978 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-10-11 22:39:51,987 basehttp "GET /admin/events/eventcategory/add/ HTTP/1.1" 200 14933
+DEBUG 2024-10-11 22:39:53,052 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:39:53.050711' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:39:53.050711', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:39:53,053 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:39:53,063 utils (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "users_user" ON ("django_admin_log"."user_id" = "users_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+INFO 2024-10-11 22:39:53,064 basehttp "GET /admin/ HTTP/1.1" 200 14600
+DEBUG 2024-10-11 22:40:00,357 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:40:00.356289' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:40:00.356289', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:40:00,358 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:40:00,360 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:40:00,367 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'events' AND "django_content_type"."model" = 'event') LIMIT 21; args=('events', 'event'); alias=default
+DEBUG 2024-10-11 22:40:00,367 utils (0.000) COMMIT; args=None; alias=default
+DEBUG 2024-10-11 22:40:00,377 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory"; args=(); alias=default
+INFO 2024-10-11 22:40:00,401 basehttp "GET /admin/events/event/add/ HTTP/1.1" 200 18980
+DEBUG 2024-10-11 22:40:00,420 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:40:00.418507' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:40:00.418507', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:40:00,422 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:40:00,424 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-11 22:40:00,446 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-10-11 22:40:00,452 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-10-11 22:40:00,529 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-10-11 22:40:00,536 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+DEBUG 2024-10-11 22:41:31,775 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:41:31.773765' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:41:31.773765', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:41:31,776 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:41:31,777 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:41:31,780 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory" WHERE "events_eventcategory"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:41:31,785 utils (0.000) SELECT 1 AS "a" FROM "events_eventcategory" WHERE "events_eventcategory"."id" = 1 LIMIT 1; args=(1, 1); alias=default
+DEBUG 2024-10-11 22:41:31,786 utils (0.000) INSERT INTO "events_event" ("title", "description", "category_id", "location", "start_time", "end_time", "created_at", "updated_at") VALUES ('upcoming entertainment party', 'upcoming entertainment party', 1, 'accra', '2024-10-12 05:41:20', '2024-10-12 05:41:26', '2024-10-12 05:41:31.785733', '2024-10-12 05:41:31.785733') RETURNING "events_event"."id"; args=('upcoming entertainment party', 'upcoming entertainment party', 1, 'accra', '2024-10-12 05:41:20', '2024-10-12 05:41:26', '2024-10-12 05:41:31.785733', '2024-10-12 05:41:31.785733'); alias=default
+DEBUG 2024-10-11 22:41:31,788 utils (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2024-10-12 05:41:31.787728', 1, 18, '1', 'upcoming entertainment party', 1, '[{"added": {}}]') RETURNING "django_admin_log"."id"; args=('2024-10-12 05:41:31.787728', 1, 18, '1', 'upcoming entertainment party', 1, '[{"added": {}}]'); alias=default
+DEBUG 2024-10-11 22:41:31,795 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-10-11 22:41:31,796 basehttp "POST /admin/events/event/add/ HTTP/1.1" 302 0
+DEBUG 2024-10-11 22:41:31,801 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:41:31.799127' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:41:31.799127', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:41:31,802 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:41:31,804 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory"; args=(); alias=default
+DEBUG 2024-10-11 22:41:31,805 utils (0.000) SELECT COUNT(*) AS "__count" FROM "events_event"; args=(); alias=default
+DEBUG 2024-10-11 22:41:31,806 utils (0.000) SELECT COUNT(*) AS "__count" FROM "events_event"; args=(); alias=default
+DEBUG 2024-10-11 22:41:31,809 utils (0.000) SELECT "events_event"."id", "events_event"."title", "events_event"."description", "events_event"."category_id", "events_event"."location", "events_event"."start_time", "events_event"."end_time", "events_event"."created_at", "events_event"."updated_at", "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_event" INNER JOIN "events_eventcategory" ON ("events_event"."category_id" = "events_eventcategory"."id") ORDER BY "events_event"."start_time" DESC, "events_event"."id" DESC; args=(); alias=default
+INFO 2024-10-11 22:41:31,823 basehttp "GET /admin/events/event/ HTTP/1.1" 200 18302
+DEBUG 2024-10-11 22:41:31,842 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:41:31.841013' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:41:31.841013', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:41:31,844 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:41:31,846 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-11 22:41:31,885 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+DEBUG 2024-10-11 22:42:30,623 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:42:30.618190' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:42:30.618190', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:42:30,625 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:42:30,632 utils (0.000) SELECT "events_event"."id", "events_event"."title", "events_event"."description", "events_event"."category_id", "events_event"."location", "events_event"."start_time", "events_event"."end_time", "events_event"."created_at", "events_event"."updated_at" FROM "events_event" WHERE "events_event"."category_id" = 1; args=(1,); alias=default
+DEBUG 2024-10-11 22:42:30,635 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory" WHERE "events_eventcategory"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:42:30,653 basehttp "GET /events/events/?category=1 HTTP/1.1" 200 13158
+DEBUG 2024-10-11 22:42:56,948 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:42:56.946617' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:42:56.946617', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:42:56,949 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:42:56,953 utils (0.000) SELECT "events_event"."id", "events_event"."title", "events_event"."description", "events_event"."category_id", "events_event"."location", "events_event"."start_time", "events_event"."end_time", "events_event"."created_at", "events_event"."updated_at" FROM "events_event" WHERE "events_event"."category_id" = 2; args=(2,); alias=default
+INFO 2024-10-11 22:42:56,971 basehttp "GET /events/events/?category=2 HTTP/1.1" 200 12463
+INFO 2024-10-11 22:44:22,193 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:44:22,218 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:44:23,152 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:44:23,185 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:44:24,299 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:44:24,303 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:44:56,024 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:44:56,153 autoreload C:\Users\User\Desktop\projects\tour\events\models.py changed, reloading.
+INFO 2024-10-11 22:44:56,923 autoreload Watching for file changes with StatReloader
+INFO 2024-10-11 22:44:57,102 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:44:58,266 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:44:58,270 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-11 22:45:03,818 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-11 22:45:04,734 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-11 22:45:04,738 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-11 22:45:09,272 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:45:09.268827' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:45:09.268827', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:45:09,273 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:45:09,335 utils (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "users_user" ON ("django_admin_log"."user_id" = "users_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+INFO 2024-10-11 22:45:09,337 basehttp "GET /admin/ HTTP/1.1" 200 14964
+DEBUG 2024-10-11 22:45:22,532 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:45:22.531090' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:45:22.531090', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:45:22,534 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:45:22,534 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:45:22,540 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'events' AND "django_content_type"."model" = 'event') LIMIT 21; args=('events', 'event'); alias=default
+DEBUG 2024-10-11 22:45:22,541 utils (0.000) COMMIT; args=None; alias=default
+DEBUG 2024-10-11 22:45:22,570 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory"; args=(); alias=default
+INFO 2024-10-11 22:45:22,586 basehttp "GET /admin/events/event/add/ HTTP/1.1" 200 19828
+DEBUG 2024-10-11 22:45:22,606 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:45:22.602145' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:45:22.602145', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+INFO 2024-10-11 22:45:22,606 basehttp "GET /static/django_ckeditor_5/dist/bundle.js HTTP/1.1" 304 0
+INFO 2024-10-11 22:45:22,606 basehttp "GET /static/django_ckeditor_5/dist/styles.css HTTP/1.1" 304 0
+DEBUG 2024-10-11 22:45:22,608 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:45:22,611 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+DEBUG 2024-10-11 22:48:04,687 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:48:04.685787' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:48:04.685787', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:48:04,688 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:48:04,689 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-10-11 22:48:04,692 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory" WHERE "events_eventcategory"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:48:04,696 utils (0.000) SELECT 1 AS "a" FROM "events_eventcategory" WHERE "events_eventcategory"."id" = 1 LIMIT 1; args=(1, 1); alias=default
+DEBUG 2024-10-11 22:48:04,698 utils (0.000) INSERT INTO "events_event" ("title", "description", "category_id", "location", "start_time", "end_time", "created_at", "updated_at") VALUES ('sex party', '<p><strong>sex party coming soon</strong></p>', 1, 'berekum', '2024-10-12 05:47:57', '2024-10-12 05:48:01', '2024-10-12 05:48:04.697782', '2024-10-12 05:48:04.697782') RETURNING "events_event"."id"; args=('sex party', '<p><strong>sex party coming soon</strong></p>', 1, 'berekum', '2024-10-12 05:47:57', '2024-10-12 05:48:01', '2024-10-12 05:48:04.697782', '2024-10-12 05:48:04.697782'); alias=default
+DEBUG 2024-10-11 22:48:04,699 utils (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2024-10-12 05:48:04.699805', 1, 18, '2', 'sex party', 1, '[{"added": {}}]') RETURNING "django_admin_log"."id"; args=('2024-10-12 05:48:04.699805', 1, 18, '2', 'sex party', 1, '[{"added": {}}]'); alias=default
+DEBUG 2024-10-11 22:48:04,706 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-10-11 22:48:04,707 basehttp "POST /admin/events/event/add/ HTTP/1.1" 302 0
+DEBUG 2024-10-11 22:48:04,712 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:48:04.709808' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:48:04.709808', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:48:04,713 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:48:04,714 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory"; args=(); alias=default
+DEBUG 2024-10-11 22:48:04,715 utils (0.000) SELECT COUNT(*) AS "__count" FROM "events_event"; args=(); alias=default
+DEBUG 2024-10-11 22:48:04,716 utils (0.000) SELECT COUNT(*) AS "__count" FROM "events_event"; args=(); alias=default
+DEBUG 2024-10-11 22:48:04,719 utils (0.000) SELECT "events_event"."id", "events_event"."title", "events_event"."description", "events_event"."category_id", "events_event"."location", "events_event"."start_time", "events_event"."end_time", "events_event"."created_at", "events_event"."updated_at", "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_event" INNER JOIN "events_eventcategory" ON ("events_event"."category_id" = "events_eventcategory"."id") ORDER BY "events_event"."start_time" DESC, "events_event"."id" DESC; args=(); alias=default
+INFO 2024-10-11 22:48:04,742 basehttp "GET /admin/events/event/ HTTP/1.1" 200 18767
+DEBUG 2024-10-11 22:48:04,763 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:48:04.761641' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:48:04.761641', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:48:04,764 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:48:04,766 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+DEBUG 2024-10-11 22:48:18,765 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:48:18.763845' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:48:18.763845', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:48:18,766 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:48:18,770 utils (0.000) SELECT "events_event"."id", "events_event"."title", "events_event"."description", "events_event"."category_id", "events_event"."location", "events_event"."start_time", "events_event"."end_time", "events_event"."created_at", "events_event"."updated_at" FROM "events_event"; args=(); alias=default
+DEBUG 2024-10-11 22:48:18,773 utils (0.016) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory" WHERE "events_eventcategory"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:48:18,774 utils (0.000) SELECT "events_eventcategory"."id", "events_eventcategory"."name", "events_eventcategory"."slug" FROM "events_eventcategory" WHERE "events_eventcategory"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-11 22:48:18,813 basehttp "GET /events/events/ HTTP/1.1" 200 13791
+DEBUG 2024-10-11 22:49:30,662 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-12 05:49:30.660251' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-12 05:49:30.660251', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-11 22:49:30,663 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-11 22:49:30,675 utils (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "users_user" ON ("django_admin_log"."user_id" = "users_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+INFO 2024-10-11 22:49:30,678 basehttp "GET /admin/ HTTP/1.1" 200 15309
+INFO 2024-10-12 15:30:20,820 autoreload C:\Users\User\Desktop\projects\tour\tour\settings.py changed, reloading.
+INFO 2024-10-12 15:30:20,861 autoreload C:\Users\User\Desktop\projects\tour\tour\settings.py changed, reloading.
+INFO 2024-10-12 15:30:21,987 autoreload Watching for file changes with StatReloader
+INFO 2024-10-12 15:30:22,000 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-12 15:30:23,124 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-12 15:30:23,128 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-13 04:20:08,815 autoreload Watching for file changes with StatReloader
+INFO 2024-10-13 04:21:32,723 autoreload C:\Users\User\Desktop\projects\tour\utils\urls.py changed, reloading.
+INFO 2024-10-13 04:21:33,759 autoreload Watching for file changes with StatReloader
+INFO 2024-10-13 04:21:39,060 autoreload Watching for file changes with StatReloader
+INFO 2024-10-13 04:23:00,862 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-13 04:23:02,603 utils (0.016) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-13 04:23:02,607 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-13 04:23:30,503 basehttp "GET /utils/chat HTTP/1.1" 301 0
+DEBUG 2024-10-13 04:23:30,509 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:23:30.507672' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:23:30.507672', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:23:30,510 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+ERROR 2024-10-13 04:23:30,624 log Internal Server Error: /utils/chat/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\request.py", line 421, in __getattr__
+    return getattr(_request, attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'query'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\utils\views.py", line 28, in chat
+    question = request.query.get("question")
+               ^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\request.py", line 423, in __getattr__
+    return self.__getattribute__(attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Request' object has no attribute 'query'
+ERROR 2024-10-13 04:23:30,630 basehttp "GET /utils/chat/ HTTP/1.1" 500 110317
+WARNING 2024-10-13 04:23:31,073 basehttp "GET /favicon.ico HTTP/1.1" 404 3741
+INFO 2024-10-13 04:24:10,385 autoreload C:\Users\User\Desktop\projects\tour\utils\views.py changed, reloading.
+INFO 2024-10-13 04:24:11,767 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-13 04:24:13,710 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-13 04:24:13,713 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-13 04:24:19,012 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-13 04:24:20,660 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-13 04:24:20,663 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-13 04:24:20,776 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:24:20.774694' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:24:20.774694', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:24:20,777 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:24:24,500 basehttp "GET /utils/chat/ HTTP/1.1" 200 5861
+INFO 2024-10-13 04:24:24,650 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-10-13 04:24:24,654 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-10-13 04:24:24,659 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-10-13 04:24:24,662 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-10-13 04:24:24,682 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-10-13 04:24:24,683 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-10-13 04:24:24,724 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-10-13 04:24:24,732 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-10-13 04:24:24,734 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-10-13 04:24:24,751 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-10-13 04:24:24,763 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-10-13 04:24:24,770 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+DEBUG 2024-10-13 04:25:42,511 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:25:42.508322' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:25:42.508322', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:25:42,513 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:25:46,088 basehttp "GET /utils/chat/?question=tell%20me%20some%20torist%20sites%20in%20kumasi HTTP/1.1" 200 7143
+DEBUG 2024-10-13 04:27:38,539 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:27:38.537053' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:27:38.537053', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:27:38,543 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:27:42,672 basehttp "GET /utils/chat/?question=torist%20site%20in%20kintampo%20in%20bono%20east%20region HTTP/1.1" 200 7018
+INFO 2024-10-13 04:30:48,480 autoreload C:\Users\User\Desktop\projects\tour\utils\views.py changed, reloading.
+INFO 2024-10-13 04:30:49,428 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-13 04:30:51,171 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-13 04:30:51,174 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-10-13 04:31:05,473 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-13 04:31:07,060 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-10-13 04:31:07,063 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-10-13 04:31:39,911 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:31:39.911013' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:31:39.911013', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:31:39,919 utils (0.015) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:31:44,772 basehttp "GET /utils/chat/?question=torist%20site%20in%20berekum HTTP/1.1" 200 7018
+WARNING 2024-10-13 04:31:44,927 basehttp "GET /favicon.ico HTTP/1.1" 404 3741
+DEBUG 2024-10-13 04:33:09,914 utils (0.015) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:33:09.912489' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:33:09.912489', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:33:09,917 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:33:13,286 basehttp "GET /utils/chat/?question=hotels%20in%20berekum HTTP/1.1" 200 6050
+DEBUG 2024-10-13 04:34:12,011 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:34:12.006132' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:34:12.006132', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:34:12,015 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:34:13,439 basehttp "GET /utils/chat/?question=what%20is%20your%20name HTTP/1.1" 200 5376
+DEBUG 2024-10-13 04:34:25,250 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:34:25.248014' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:34:25.248014', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:34:25,251 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:34:26,881 basehttp "GET /utils/chat/?question=what%20is%20your%20name HTTP/1.1" 200 5439
+DEBUG 2024-10-13 04:42:24,571 utils (0.016) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:42:24.569521' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:42:24.569521', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:42:24,572 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:42:28,572 basehttp "GET /utils/chat/?question=how%20are%20you%20response%20in%20akan%20twi%20language HTTP/1.1" 200 5661
+DEBUG 2024-10-13 04:48:21,357 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:48:21.352237' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:48:21.352237', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:48:21,360 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:48:23,494 basehttp "GET /utils/chat/?question=if%20i%20ask%20you%20something%20in%20akan%20twi%20language%20can%20you%20understand HTTP/1.1" 200 5702
+DEBUG 2024-10-13 04:49:11,973 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:49:11.971367' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:49:11.971367', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:49:11,977 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:49:16,452 basehttp "GET /utils/chat/?question=woho%20tisen HTTP/1.1" 200 6627
+DEBUG 2024-10-13 04:49:40,653 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:49:40.651188' AND "django_session"."session_key" = 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj') LIMIT 21; args=('2024-10-13 11:49:40.651188', 'em8eaqi2pz2m5hb9em5qdkwiyuol8thj'); alias=default
+DEBUG 2024-10-13 04:49:40,654 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-10-13 04:49:43,587 basehttp "GET /utils/chat/?question=woho%20tisen%20this%20is%20twi%20akan%20alnguage HTTP/1.1" 200 5633
+INFO 2024-10-13 04:54:16,659 basehttp "GET /admin HTTP/1.1" 301 0
+DEBUG 2024-10-13 04:54:16,661 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-10-13 11:54:16.661671' AND "django_session"."session_key" = 'zlh0hejiotl9fb4lm882b827ool4mv3l') LIMIT 21; args=('2024-10-13 11:54:16.661671', 'zlh0hejiotl9fb4lm882b827ool4mv3l'); alias=default
+DEBUG 2024-10-13 04:54:16,661 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-10-13 04:54:16,765 utils (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "users_user" ON ("django_admin_log"."user_id" = "users_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,); alias=default
+INFO 2024-10-13 04:54:16,768 basehttp "GET /admin/ HTTP/1.1" 200 15309
+INFO 2024-10-13 04:54:17,131 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-10-13 04:54:17,146 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-10-13 04:54:17,200 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-10-13 04:54:17,222 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-10-13 04:54:17,249 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-10-13 04:54:17,271 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-10-13 04:54:17,572 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-10-13 04:54:17,581 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-10-13 04:54:17,589 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2024-10-13 04:54:17,784 basehttp "GET /favicon.ico HTTP/1.1" 404 3741
