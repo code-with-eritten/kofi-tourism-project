@@ -15,14 +15,20 @@ class DestinationImageSerializer(serializers.ModelSerializer):
         fields = ['id', 'image']
         read_only_fields = ['id']
 
-
 class DestinationListSerializer(serializers.ModelSerializer):
     category = CategorySerializer(read_only=True)
+    images = DestinationImageSerializer(many=True, read_only=True)
 
     class Meta:
         model = Destination
-        fields = ['id', 'name', 'slug', 'short_description', 'location', 'category']
+        fields = [
+            'id', 'name', 'slug', 'entrance_fee', 'opening_hours', 
+            'short_description', 'video_url', 'description', 
+            'location', 'category', 'images'
+        ]
         read_only_fields = ['id']
+
+
 
 
 class DestinationDetailSerializer(serializers.ModelSerializer):

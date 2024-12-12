@@ -3014,3 +3014,23 @@ DEBUG 2024-12-12 06:48:02,802 utils (0.000) SELECT 1 AS "a" FROM "tour_operators
 DEBUG 2024-12-12 06:48:02,804 utils (0.000) SELECT 1 AS "a" FROM "tour_operators_touroperator" WHERE "tour_operators_touroperator"."contact_email" = 'eritten2@gmail.com' LIMIT 1; args=(1, 'eritten2@gmail.com'); alias=default
 DEBUG 2024-12-12 06:48:02,810 utils (0.000) INSERT INTO "tour_operators_touroperator" ("name", "slug", "description", "contact_email", "contact_phone", "location", "rating", "active", "featured", "created_at", "updated_at") VALUES ('eritten', '', 'nice place', 'eritten2@gmail.com', '0596810641', 'accra', '5.00', 1, 1, '2024-12-12 14:48:02.808037', '2024-12-12 14:48:02.808037') RETURNING "tour_operators_touroperator"."id"; args=('eritten', '', 'nice place', 'eritten2@gmail.com', '0596810641', 'accra', '5.00', True, True, '2024-12-12 14:48:02.808037', '2024-12-12 14:48:02.808037'); alias=default
 INFO 2024-12-12 06:48:02,830 basehttp "POST /tour-operators/ HTTP/1.1" 201 11329
+INFO 2024-12-12 09:00:02,537 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 09:00:17,888 basehttp "GET /accomodation/hotels/ HTTP/1.1" 200 8183
+INFO 2024-12-12 09:00:38,438 basehttp "GET /api-v1/destinations/?search=castle HTTP/1.1" 200 9058
+INFO 2024-12-12 09:02:31,304 basehttp "GET /api-v1/destinations/1 HTTP/1.1" 301 0
+WARNING 2024-12-12 09:02:31,640 basehttp "GET /api-v1/destinations/1/ HTTP/1.1" 404 5612
+INFO 2024-12-12 09:03:50,731 basehttp "GET /api-v1/destinations/castles HTTP/1.1" 301 0
+WARNING 2024-12-12 09:03:51,059 basehttp "GET /api-v1/destinations/castles/ HTTP/1.1" 404 5648
+WARNING 2024-12-12 09:04:30,067 basehttp "GET /api-v1/destinations/castles/ HTTP/1.1" 404 5648
+INFO 2024-12-12 09:07:38,023 autoreload C:\Users\User\Desktop\projects\tour\destinations\views.py changed, reloading.
+INFO 2024-12-12 09:07:39,427 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 09:08:38,351 autoreload C:\Users\User\Desktop\projects\tour\destinations\urls.py changed, reloading.
+INFO 2024-12-12 09:08:39,915 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-12 09:08:48,096 basehttp "GET /api-v1/destinations/castles/ HTTP/1.1" 404 5701
+WARNING 2024-12-12 09:09:00,727 basehttp "GET /api-v1/destinations/1/ HTTP/1.1" 404 5665
+WARNING 2024-12-12 09:14:52,828 basehttp "GET /api-v1/destinations/2/ HTTP/1.1" 404 5665
+WARNING 2024-12-12 09:15:22,893 basehttp "GET /api-v1/destinations/castles/ HTTP/1.1" 404 5701
+INFO 2024-12-12 09:16:55,708 basehttp "GET /api-v1/destinations/?search=castle HTTP/1.1" 200 9135
+WARNING 2024-12-12 09:17:24,354 basehttp "GET /api-v1/destinationscapecoast-castle HTTP/1.1" 404 179
+INFO 2024-12-12 09:17:45,671 basehttp "GET /api-v1/destinations/capecoast-castle HTTP/1.1" 301 0
+INFO 2024-12-12 09:17:45,704 basehttp "GET /api-v1/destinations/capecoast-castle/ HTTP/1.1" 200 6521
