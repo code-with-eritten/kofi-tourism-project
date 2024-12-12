@@ -11,12 +11,12 @@ urlpatterns = [
     path('auth/', include('djoser.urls.jwt')),  # Djoser JWT URLs
     path('authenticate/', TokenObtainPairView.as_view(), name='token'),
     path('users/', include('users.urls')),
-    path('likes/', include('likes.urls')),
+    path('api-v1/', include('likes.urls')),
     path('ckeditor5/', include('django_ckeditor_5.urls')),
     path('events/', include('events.urls')),
-    path('utils/', include('utils.urls')),
-    path('accomodation/', include('accomodation.urls')),
-    path('', include('tour_operators.urls'))
+    path('api-v1/', include('utils.urls')),
+    path('api-v1/', include('accomodation.urls')),
+    path('api-v1/', include('tour_operators.urls'))
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
