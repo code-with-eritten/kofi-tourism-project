@@ -25,4 +25,7 @@ class HotelSerializer(serializers.ModelSerializer):
                   'amenities', 'photos']
 
     def get_description(self, obj):
-        return obj.get_description_as_markdown()
+        # Ensure the `Hotel` model has a method or logic to convert description as markdown
+        if hasattr(obj, 'get_description_as_markdown'):
+            return obj.get_description_as_markdown()
+        return obj.description

@@ -2328,3 +2328,689 @@ INFO 2024-10-13 04:54:17,572 basehttp "GET /static/admin/img/icon-changelink.svg
 INFO 2024-10-13 04:54:17,581 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 INFO 2024-10-13 04:54:17,589 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
 WARNING 2024-10-13 04:54:17,784 basehttp "GET /favicon.ico HTTP/1.1" 404 3741
+INFO 2024-12-12 04:45:55,469 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-12 04:46:42,969 basehttp "GET /api-v1 HTTP/1.1" 404 179
+WARNING 2024-12-12 04:46:43,329 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2024-12-12 04:47:01,570 basehttp "GET /api-v1/categories HTTP/1.1" 301 0
+INFO 2024-12-12 04:47:01,717 basehttp "GET /api-v1/categories/ HTTP/1.1" 200 6400
+WARNING 2024-12-12 04:47:01,755 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,758 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,759 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,771 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,772 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,780 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,783 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,786 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,789 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,792 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:01,794 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+INFO 2024-12-12 04:47:25,500 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-12-12 04:47:25,528 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-12-12 04:47:25,694 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4153
+WARNING 2024-12-12 04:47:25,725 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,725 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,730 basehttp "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,731 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,731 basehttp "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,739 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,763 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,766 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:25,767 basehttp "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2024-12-12 04:47:34,380 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-12-12 04:47:34,422 basehttp "GET /admin/ HTTP/1.1" 200 15309
+WARNING 2024-12-12 04:47:34,449 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,450 basehttp "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,454 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,456 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,456 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,457 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,480 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,480 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,485 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:34,491 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2024-12-12 04:47:58,134 basehttp "GET /admin/destinations/category/add/ HTTP/1.1" 200 15156
+WARNING 2024-12-12 04:47:58,159 basehttp "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,167 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,176 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,177 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,177 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,177 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,180 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,217 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+INFO 2024-12-12 04:47:58,224 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-12-12 04:47:58,224 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,224 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,229 basehttp "GET /static/admin/js/core.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,229 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,229 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,238 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,245 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,265 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,265 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,265 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,265 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:47:58,275 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+INFO 2024-12-12 04:48:25,035 basehttp "POST /admin/destinations/category/add/ HTTP/1.1" 302 0
+INFO 2024-12-12 04:48:25,150 basehttp "GET /admin/destinations/category/ HTTP/1.1" 200 15518
+WARNING 2024-12-12 04:48:25,177 basehttp "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,186 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,191 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,191 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,193 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,196 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,200 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+INFO 2024-12-12 04:48:25,201 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-12-12 04:48:25,206 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,212 basehttp "GET /static/admin/js/core.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,221 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,224 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,231 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,234 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,234 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,244 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,244 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,244 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,254 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,254 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2024-12-12 04:48:25,259 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2024-12-12 04:49:14,863 autoreload C:\Users\User\Desktop\projects\tour\tour\settings.py changed, reloading.
+INFO 2024-12-12 04:49:15,817 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 04:49:17,749 utils (0.015) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 04:49:17,754 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 04:49:22,961 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 04:49:24,520 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 04:49:24,523 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-12-12 04:49:30,365 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:49:30.361444' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:49:30.361444', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:49:30,367 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:49:30,369 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_category"; args=(); alias=default
+DEBUG 2024-12-12 04:49:30,370 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_category"; args=(); alias=default
+DEBUG 2024-12-12 04:49:30,402 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" ORDER BY "destinations_category"."id" DESC; args=(); alias=default
+INFO 2024-12-12 04:49:30,443 basehttp "GET /admin/destinations/category/ HTTP/1.1" 200 15301
+INFO 2024-12-12 04:49:30,577 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-12-12 04:49:30,577 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-12-12 04:49:30,591 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-12-12 04:49:30,594 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-12-12 04:49:30,605 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-12-12 04:49:30,631 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+DEBUG 2024-12-12 04:49:30,637 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:49:30.636489' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:49:30.636489', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:49:30,638 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 04:49:30,641 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-12 04:49:30,654 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-12-12 04:49:30,686 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-12-12 04:49:30,695 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-12-12 04:49:30,727 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-12-12 04:49:30,735 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-12-12 04:49:30,755 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-12-12 04:49:30,760 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-12-12 04:49:30,774 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-12-12 04:49:30,786 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-12-12 04:49:30,800 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-12-12 04:49:30,813 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-12-12 04:49:30,838 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-12-12 04:49:30,838 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+DEBUG 2024-12-12 04:49:59,525 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:49:59.523090' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:49:59.523090', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:49:59,526 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:49:59,526 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 04:49:59,536 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'destinations' AND "django_content_type"."model" = 'destination') LIMIT 21; args=('destinations', 'destination'); alias=default
+DEBUG 2024-12-12 04:49:59,536 utils (0.000) COMMIT; args=None; alias=default
+DEBUG 2024-12-12 04:49:59,585 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category"; args=(); alias=default
+INFO 2024-12-12 04:49:59,663 basehttp "GET /admin/destinations/destination/add/ HTTP/1.1" 200 26454
+INFO 2024-12-12 04:49:59,724 basehttp "GET /static/django_ckeditor_5/dist/styles.css HTTP/1.1" 200 199932
+INFO 2024-12-12 04:49:59,724 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8710
+INFO 2024-12-12 04:49:59,746 basehttp "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+DEBUG 2024-12-12 04:49:59,750 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:49:59.748064' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:49:59.748064', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:49:59,751 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 04:49:59,753 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-12 04:49:59,810 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2024-12-12 04:49:59,816 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-12-12 04:49:59,836 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-12-12 04:49:59,854 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-12-12 04:49:59,874 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-12-12 04:50:00,896 basehttp "GET /static/django_ckeditor_5/dist/bundle.js HTTP/1.1" 200 1215835
+INFO 2024-12-12 04:50:01,192 basehttp "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+DEBUG 2024-12-12 04:51:06,956 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:51:06.955627' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:51:06.955627', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:51:06,956 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:51:06,956 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 04:51:06,963 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:51:06,965 utils (0.000) SELECT 1 AS "a" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 1; args=(1, 1); alias=default
+DEBUG 2024-12-12 04:51:06,965 utils (0.000) SELECT 1 AS "a" FROM "destinations_destination" WHERE "destinations_destination"."slug" = 'capecoast-castle' LIMIT 1; args=(1, 'capecoast-castle'); alias=default
+DEBUG 2024-12-12 04:51:06,965 utils (0.000) INSERT INTO "destinations_destination" ("name", "slug", "description", "short_description", "location", "category_id", "video_url", "entrance_fee", "opening_hours", "latitude", "longitude", "created_at", "updated_at") VALUES ('capecoast castle', 'capecoast-castle', '<p>capecoast castle</p>', 'castle place', 'capecoast', 1, NULL, '100.00', 'from monday to sumday', NULL, NULL, '2024-12-12 12:51:06.965481', '2024-12-12 12:51:06.965481') RETURNING "destinations_destination"."id"; args=('capecoast castle', 'capecoast-castle', '<p>capecoast castle</p>', 'castle place', 'capecoast', 1, None, '100.00', 'from monday to sumday', None, None, '2024-12-12 12:51:06.965481', '2024-12-12 12:51:06.965481'); alias=default
+DEBUG 2024-12-12 04:51:06,965 utils (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2024-12-12 12:51:06.965481', 1, 2, '1', 'capecoast castle', 1, '[{"added": {}}]') RETURNING "django_admin_log"."id"; args=('2024-12-12 12:51:06.965481', 1, 2, '1', 'capecoast castle', 1, '[{"added": {}}]'); alias=default
+DEBUG 2024-12-12 04:51:06,979 utils (0.016) COMMIT; args=None; alias=default
+INFO 2024-12-12 04:51:06,980 basehttp "POST /admin/destinations/destination/add/ HTTP/1.1" 302 0
+DEBUG 2024-12-12 04:51:06,985 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:51:06.985378' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:51:06.985378', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:51:06,985 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:51:06,990 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category"; args=(); alias=default
+DEBUG 2024-12-12 04:51:06,990 utils (0.000) SELECT COUNT(*) FROM (SELECT "destinations_destination"."id" AS "col1" FROM "destinations_destination" LEFT OUTER JOIN "likes_like" ON ("destinations_destination"."id" = "likes_like"."destination_id") LEFT OUTER JOIN "comments_comment" ON ("destinations_destination"."id" = "comments_comment"."destination_id") GROUP BY 1) subquery; args=(); alias=default
+DEBUG 2024-12-12 04:51:06,990 utils (0.000) SELECT COUNT(*) FROM (SELECT "destinations_destination"."id" AS "col1" FROM "destinations_destination" LEFT OUTER JOIN "likes_like" ON ("destinations_destination"."id" = "likes_like"."destination_id") LEFT OUTER JOIN "comments_comment" ON ("destinations_destination"."id" = "comments_comment"."destination_id") GROUP BY 1) subquery; args=(); alias=default
+DEBUG 2024-12-12 04:51:06,996 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at", COUNT("likes_like"."id") AS "like_count", COUNT("comments_comment"."id") AS "comment_count", "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_destination" LEFT OUTER JOIN "likes_like" ON ("destinations_destination"."id" = "likes_like"."destination_id") LEFT OUTER JOIN "comments_comment" ON ("destinations_destination"."id" = "comments_comment"."destination_id") INNER JOIN "destinations_category" ON ("destinations_destination"."category_id" = "destinations_category"."id") GROUP BY "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at", "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" ORDER BY "destinations_destination"."id" DESC; args=(); alias=default
+DEBUG 2024-12-12 04:51:07,005 utils (0.000) SELECT COUNT(*) AS "__count" FROM "likes_like" WHERE "likes_like"."destination_id" = 1; args=(1,); alias=default
+DEBUG 2024-12-12 04:51:07,005 utils (0.000) SELECT COUNT(*) AS "__count" FROM "comments_comment" WHERE "comments_comment"."destination_id" = 1; args=(1,); alias=default
+INFO 2024-12-12 04:51:07,015 basehttp "GET /admin/destinations/destination/ HTTP/1.1" 200 17336
+DEBUG 2024-12-12 04:51:07,061 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:51:07.059117' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:51:07.059117', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:51:07,063 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 04:51:07,066 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-12 04:51:07,148 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-12-12 04:51:45,934 basehttp "GET /api-v1/destinations HTTP/1.1" 301 0
+DEBUG 2024-12-12 04:51:45,944 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:51:45.942981' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:51:45.942981', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:51:45,945 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:51:45,979 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_destination"; args=(); alias=default
+DEBUG 2024-12-12 04:51:45,980 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" FROM "destinations_destination" LIMIT 1; args=(); alias=default
+DEBUG 2024-12-12 04:51:45,982 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 04:51:46,041 basehttp "GET /api-v1/destinations/ HTTP/1.1" 200 8347
+INFO 2024-12-12 04:51:46,093 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-12-12 04:51:46,095 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-12-12 04:51:46,097 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-12-12 04:51:46,106 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-12-12 04:51:46,168 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-12-12 04:51:46,204 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-12-12 04:51:46,241 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2024-12-12 04:51:46,255 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-12-12 04:51:46,270 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-12-12 04:51:46,289 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-12-12 04:51:46,290 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-12-12 04:51:46,299 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-12-12 04:51:46,303 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+DEBUG 2024-12-12 04:53:11,489 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:53:11.483538' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:53:11.483538', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:53:11,491 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:53:11,492 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_destination"; args=(); alias=default
+DEBUG 2024-12-12 04:53:11,493 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" FROM "destinations_destination" LIMIT 1; args=(); alias=default
+DEBUG 2024-12-12 04:53:11,495 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 04:53:11,501 basehttp "GET /api-v1/destinations/?category_slug=castles HTTP/1.1" 200 8621
+DEBUG 2024-12-12 04:53:23,622 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:53:23.620472' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:53:23.620472', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:53:23,623 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:53:23,628 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_destination"; args=(); alias=default
+DEBUG 2024-12-12 04:53:23,629 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" FROM "destinations_destination" LIMIT 1; args=(); alias=default
+DEBUG 2024-12-12 04:53:23,631 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 04:53:23,642 basehttp "GET /api-v1/destinations/?category_slug=castle HTTP/1.1" 200 8610
+DEBUG 2024-12-12 04:53:46,162 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 12:53:46.160548' AND "django_session"."session_key" = 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe') LIMIT 21; args=('2024-12-12 12:53:46.160548', 'usxl4n7mwvt9rdi2fdcn3375ochs4zhe'); alias=default
+DEBUG 2024-12-12 04:53:46,163 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 04:53:46,166 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_destination"; args=(); alias=default
+DEBUG 2024-12-12 04:53:46,170 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" FROM "destinations_destination" LIMIT 1; args=(); alias=default
+DEBUG 2024-12-12 04:53:46,171 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 04:53:46,178 basehttp "GET /api-v1/destinations/?category_slug=banku HTTP/1.1" 200 8599
+INFO 2024-12-12 04:55:07,849 autoreload C:\Users\User\Desktop\projects\tour\destinations\views.py changed, reloading.
+INFO 2024-12-12 04:55:08,788 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 04:55:10,490 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 04:55:10,493 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 04:55:54,229 autoreload C:\Users\User\Desktop\projects\tour\destinations\urls.py changed, reloading.
+INFO 2024-12-12 04:55:55,209 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 04:55:56,950 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 04:55:56,953 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 04:56:22,020 autoreload C:\Users\User\Desktop\projects\tour\destinations\urls.py changed, reloading.
+INFO 2024-12-12 04:56:22,934 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 04:56:24,568 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 04:56:24,571 utils (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 04:56:56,303 autoreload C:\Users\User\Desktop\projects\tour\destinations\urls.py changed, reloading.
+INFO 2024-12-12 04:56:57,248 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 04:56:58,868 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 04:56:58,871 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 04:57:07,987 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 04:57:09,626 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 04:57:09,630 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+WARNING 2024-12-12 04:58:20,041 basehttp "GET /api-v1/destinations-category/castles HTTP/1.1" 404 5411
+WARNING 2024-12-12 04:58:20,128 basehttp "GET /favicon.ico HTTP/1.1" 404 3741
+WARNING 2024-12-12 04:59:25,420 basehttp "GET /api-v1/destinations-category HTTP/1.1" 404 5387
+WARNING 2024-12-12 05:00:20,223 basehttp "GET /api-v1//destinations/category/adventure/ HTTP/1.1" 404 5423
+DEBUG 2024-12-12 05:00:33,264 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."slug" = 'adventure' LIMIT 21; args=('adventure',); alias=default
+WARNING 2024-12-12 05:00:33,320 basehttp "GET /api-v1/destinations/category/adventure/ HTTP/1.1" 404 5775
+INFO 2024-12-12 05:00:33,335 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,341 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,344 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,348 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,350 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,355 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,358 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,364 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,369 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,373 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,377 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-12-12 05:00:33,380 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2024-12-12 05:01:07,717 basehttp "GET /api-v1/destinations-category/castles HTTP/1.1" 404 5411
+INFO 2024-12-12 05:01:15,135 basehttp "GET /api-v1/destinations/category/castles HTTP/1.1" 301 0
+DEBUG 2024-12-12 05:01:15,140 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."slug" = 'castles' LIMIT 21; args=('castles',); alias=default
+DEBUG 2024-12-12 05:01:15,142 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" FROM "destinations_destination" WHERE "destinations_destination"."category_id" = 1; args=(1,); alias=default
+DEBUG 2024-12-12 05:01:15,144 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:01:15,151 basehttp "GET /api-v1/destinations/category/castles/ HTTP/1.1" 200 6143
+DEBUG 2024-12-12 05:05:05,216 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_destination" WHERE ("destinations_destination"."name" LIKE '%love%' ESCAPE '\' OR "destinations_destination"."short_description" LIKE '%love%' ESCAPE '\' OR "destinations_destination"."location" LIKE '%love%' ESCAPE '\'); args=('%love%', '%love%', '%love%'); alias=default
+INFO 2024-12-12 05:05:05,231 basehttp "GET /api-v1/destinations/?search=love HTTP/1.1" 200 7972
+INFO 2024-12-12 05:05:05,357 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+DEBUG 2024-12-12 05:05:32,117 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_destination" WHERE ("destinations_destination"."name" LIKE '%castles%' ESCAPE '\' OR "destinations_destination"."short_description" LIKE '%castles%' ESCAPE '\' OR "destinations_destination"."location" LIKE '%castles%' ESCAPE '\'); args=('%castles%', '%castles%', '%castles%'); alias=default
+INFO 2024-12-12 05:05:32,124 basehttp "GET /api-v1/destinations/?search=castles HTTP/1.1" 200 8008
+DEBUG 2024-12-12 05:05:54,084 utils (0.000) SELECT COUNT(*) AS "__count" FROM "destinations_destination" WHERE ("destinations_destination"."name" LIKE '%castle%' ESCAPE '\' OR "destinations_destination"."short_description" LIKE '%castle%' ESCAPE '\' OR "destinations_destination"."location" LIKE '%castle%' ESCAPE '\'); args=('%castle%', '%castle%', '%castle%'); alias=default
+DEBUG 2024-12-12 05:05:54,085 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" FROM "destinations_destination" WHERE ("destinations_destination"."name" LIKE '%castle%' ESCAPE '\' OR "destinations_destination"."short_description" LIKE '%castle%' ESCAPE '\' OR "destinations_destination"."location" LIKE '%castle%' ESCAPE '\') LIMIT 1; args=('%castle%', '%castle%', '%castle%'); alias=default
+DEBUG 2024-12-12 05:05:54,089 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:05:54,098 basehttp "GET /api-v1/destinations/?search=castle HTTP/1.1" 200 8492
+INFO 2024-12-12 05:08:52,307 basehttp "GET /api-v1/popular-destinations HTTP/1.1" 301 0
+DEBUG 2024-12-12 05:08:52,614 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at", COUNT("likes_like"."id") AS "like_count", COUNT("comments_comment"."id") AS "comment_count" FROM "destinations_destination" LEFT OUTER JOIN "likes_like" ON ("destinations_destination"."id" = "likes_like"."destination_id") LEFT OUTER JOIN "comments_comment" ON ("destinations_destination"."id" = "comments_comment"."destination_id") GROUP BY "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" ORDER BY 15 DESC, 16 DESC LIMIT 10; args=(); alias=default
+DEBUG 2024-12-12 05:08:52,619 utils (0.000) SELECT "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug" FROM "destinations_category" WHERE "destinations_category"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:08:52,628 basehttp "GET /api-v1/popular-destinations/ HTTP/1.1" 200 5816
+INFO 2024-12-12 05:36:30,603 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 05:36:32,198 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 05:36:32,201 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 05:36:57,245 basehttp "GET /admin/likes/like HTTP/1.1" 302 0
+INFO 2024-12-12 05:36:57,283 basehttp "GET /admin/login/?next=/admin/likes/like HTTP/1.1" 200 4173
+INFO 2024-12-12 05:36:57,378 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-12-12 05:36:57,382 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-12-12 05:36:57,396 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2024-12-12 05:36:57,400 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-12-12 05:36:57,403 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-12-12 05:36:57,405 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-12-12 05:36:57,409 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2024-12-12 05:36:57,464 basehttp "GET /favicon.ico HTTP/1.1" 404 3741
+DEBUG 2024-12-12 05:37:06,019 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."email" = 'eritten2@gmail.com' LIMIT 21; args=('eritten2@gmail.com',); alias=default
+DEBUG 2024-12-12 05:37:06,833 utils (0.000) SELECT 1 AS "a" FROM "django_session" WHERE "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r' LIMIT 1; args=(1, '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:37:06,833 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 05:37:06,845 utils (0.015) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES ('2q9dssibac9v742iuwbtmbkyajjhtk7r', 'e30:1tLjNK:4uOlLDatTjNjzmd4XgCX1e4Dion_izmqLzGf9-uWLVc', '2024-12-26 13:37:06.833584'); args=('2q9dssibac9v742iuwbtmbkyajjhtk7r', 'e30:1tLjNK:4uOlLDatTjNjzmd4XgCX1e4Dion_izmqLzGf9-uWLVc', '2024-12-26 13:37:06.833584'); alias=default
+DEBUG 2024-12-12 05:37:06,850 utils (0.000) COMMIT; args=None; alias=default
+DEBUG 2024-12-12 05:37:06,856 utils (0.016) UPDATE "users_user" SET "last_login" = '2024-12-12 13:37:06.850562' WHERE "users_user"."id" = 1; args=('2024-12-12 13:37:06.850562', 1); alias=default
+DEBUG 2024-12-12 05:37:06,857 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 05:37:06,859 utils (0.000) UPDATE "django_session" SET "session_data" = '.eJxVjEsOAiEQBe_C2pDhM0C7dO8ZCN0NMmogmc_KeHedZBa6fVX1XiKmba1xW_IcJxZnocTpd8NEj9x2wPfUbl1Sb-s8odwVedBFXjvn5-Vw_w5qWuq3HtGE0TAAWQo5FKQBrQHDGryDrEcPqrBPLqlCjN4SOKsHdM5kVkqL9wfiEDe4:1tLjNK:oWs9EteHs2u_TEO21Ae_xWd_PNQhVSSCjCMaYZ6fdOQ', "expire_date" = '2024-12-26 13:37:06.857549' WHERE "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r'; args=('.eJxVjEsOAiEQBe_C2pDhM0C7dO8ZCN0NMmogmc_KeHedZBa6fVX1XiKmba1xW_IcJxZnocTpd8NEj9x2wPfUbl1Sb-s8odwVedBFXjvn5-Vw_w5qWuq3HtGE0TAAWQo5FKQBrQHDGryDrEcPqrBPLqlCjN4SOKsHdM5kVkqL9wfiEDe4:1tLjNK:oWs9EteHs2u_TEO21Ae_xWd_PNQhVSSCjCMaYZ6fdOQ', '2024-12-26 13:37:06.857549', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:37:06,863 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-12-12 05:37:06,863 basehttp "POST /admin/login/?next=/admin/likes/like HTTP/1.1" 302 0
+DEBUG 2024-12-12 05:37:06,870 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:37:06.867789' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:37:06.867789', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:37:06,870 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:37:06,871 basehttp "GET /admin/likes/like HTTP/1.1" 301 0
+DEBUG 2024-12-12 05:37:06,877 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:37:06.874756' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:37:06.874756', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:37:06,878 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:37:06,878 utils (0.000) SELECT "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at" FROM "destinations_destination"; args=(); alias=default
+DEBUG 2024-12-12 05:37:06,878 utils (0.000) SELECT COUNT(*) AS "__count" FROM "likes_like"; args=(); alias=default
+DEBUG 2024-12-12 05:37:06,878 utils (0.000) SELECT COUNT(*) AS "__count" FROM "likes_like"; args=(); alias=default
+DEBUG 2024-12-12 05:37:06,878 utils (0.000) SELECT "likes_like"."id", "likes_like"."destination_id", "likes_like"."user_id", "destinations_destination"."id", "destinations_destination"."name", "destinations_destination"."slug", "destinations_destination"."description", "destinations_destination"."short_description", "destinations_destination"."location", "destinations_destination"."category_id", "destinations_destination"."video_url", "destinations_destination"."entrance_fee", "destinations_destination"."opening_hours", "destinations_destination"."latitude", "destinations_destination"."longitude", "destinations_destination"."created_at", "destinations_destination"."updated_at", "destinations_category"."id", "destinations_category"."name", "destinations_category"."slug", "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "likes_like" INNER JOIN "destinations_destination" ON ("likes_like"."destination_id" = "destinations_destination"."id") INNER JOIN "destinations_category" ON ("destinations_destination"."category_id" = "destinations_category"."id") INNER JOIN "users_user" ON ("likes_like"."user_id" = "users_user"."id") ORDER BY "likes_like"."id" DESC; args=(); alias=default
+INFO 2024-12-12 05:37:06,899 basehttp "GET /admin/likes/like/ HTTP/1.1" 200 13793
+DEBUG 2024-12-12 05:37:06,928 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:37:06.924340' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:37:06.924340', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+INFO 2024-12-12 05:37:06,930 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-12-12 05:37:06,931 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+DEBUG 2024-12-12 05:37:06,931 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:37:06,932 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-12-12 05:37:06,932 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-12-12 05:37:06,934 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-12 05:37:06,937 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-12-12 05:37:06,937 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-12-12 05:37:06,943 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-12-12 05:37:06,944 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-12-12 05:37:06,953 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-12-12 05:37:06,953 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-12-12 05:37:06,968 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-12-12 05:37:06,990 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-12-12 05:37:06,990 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+DEBUG 2024-12-12 05:37:40,599 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:37:40.599175' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:37:40.599175', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:37:40,599 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:37:40,599 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 05:37:40,611 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'accomodation' AND "django_content_type"."model" = 'hotel') LIMIT 21; args=('accomodation', 'hotel'); alias=default
+DEBUG 2024-12-12 05:37:40,611 utils (0.000) COMMIT; args=None; alias=default
+DEBUG 2024-12-12 05:37:40,650 utils (0.000) SELECT "accomodation_amenity"."id", "accomodation_amenity"."name" FROM "accomodation_amenity"; args=(); alias=default
+INFO 2024-12-12 05:37:40,668 basehttp "GET /admin/accomodation/hotel/add/ HTTP/1.1" 200 24446
+INFO 2024-12-12 05:37:40,697 basehttp "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+INFO 2024-12-12 05:37:40,699 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8710
+INFO 2024-12-12 05:37:40,701 basehttp "GET /static/django_ckeditor_5/dist/styles.css HTTP/1.1" 200 199932
+INFO 2024-12-12 05:37:40,724 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15502
+INFO 2024-12-12 05:37:40,727 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+DEBUG 2024-12-12 05:37:40,733 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:37:40.730810' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:37:40.730810', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+INFO 2024-12-12 05:37:40,736 basehttp "GET /static/django_ckeditor_5/dist/bundle.js HTTP/1.1" 200 1215835
+DEBUG 2024-12-12 05:37:40,738 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:37:40,740 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-12 05:37:40,751 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-12-12 05:37:40,758 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2024-12-12 05:37:40,771 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-12-12 05:37:41,033 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-12-12 05:37:41,045 basehttp "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+DEBUG 2024-12-12 05:39:03,052 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:39:03.049388' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:39:03.049388', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:39:03,053 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:39:03,053 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 05:39:03,060 utils (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'accomodation' AND "django_content_type"."model" = 'amenity') LIMIT 21; args=('accomodation', 'amenity'); alias=default
+DEBUG 2024-12-12 05:39:03,061 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-12-12 05:39:03,066 basehttp "GET /admin/accomodation/amenity/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4376
+DEBUG 2024-12-12 05:39:03,081 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:39:03.079933' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:39:03.079933', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:39:03,083 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:39:03,085 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+DEBUG 2024-12-12 05:39:10,649 utils (0.016) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:39:10.647637' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:39:10.647637', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:39:10,651 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:39:10,651 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 05:39:10,653 utils (0.000) INSERT INTO "accomodation_amenity" ("name") VALUES ('fuck') RETURNING "accomodation_amenity"."id"; args=('fuck',); alias=default
+DEBUG 2024-12-12 05:39:10,654 utils (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2024-12-12 13:39:10.654456', 1, 15, '1', 'fuck', 1, '[{"added": {}}]') RETURNING "django_admin_log"."id"; args=('2024-12-12 13:39:10.654456', 1, 15, '1', 'fuck', 1, '[{"added": {}}]'); alias=default
+DEBUG 2024-12-12 05:39:10,662 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-12-12 05:39:10,684 basehttp "POST /admin/accomodation/amenity/add/?_to_field=id&_popup=1 HTTP/1.1" 200 324
+INFO 2024-12-12 05:39:10,713 basehttp "GET /static/admin/js/popup_response.js HTTP/1.1" 200 532
+DEBUG 2024-12-12 05:39:21,482 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:39:21.478657' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:39:21.478657', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:39:21,484 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:39:21,484 utils (0.000) BEGIN; args=None; alias=default
+DEBUG 2024-12-12 05:39:21,492 utils (0.000) SELECT "accomodation_amenity"."id", "accomodation_amenity"."name" FROM "accomodation_amenity" WHERE "accomodation_amenity"."id" IN (1); args=(1,); alias=default
+DEBUG 2024-12-12 05:39:21,493 utils (0.015) SELECT 1 AS "a" FROM "accomodation_hotel" WHERE "accomodation_hotel"."slug" = 'lavila' LIMIT 1; args=(1, 'lavila'); alias=default
+DEBUG 2024-12-12 05:39:21,496 utils (0.000) INSERT INTO "accomodation_hotel" ("name", "slug", "description", "location", "rating", "price_range", "email", "phone") VALUES ('lavila', 'lavila', '<p>nice hotel</p>', 'accra osu', 4, '100', 'eritten2@gmail.com', '0596810641') RETURNING "accomodation_hotel"."id"; args=('lavila', 'lavila', '<p>nice hotel</p>', 'accra osu', 4, '100', 'eritten2@gmail.com', '0596810641'); alias=default
+DEBUG 2024-12-12 05:39:21,497 utils (0.000) SELECT "accomodation_amenity"."id" FROM "accomodation_amenity" INNER JOIN "accomodation_hotel_amenities" ON ("accomodation_amenity"."id" = "accomodation_hotel_amenities"."amenity_id") WHERE "accomodation_hotel_amenities"."hotel_id" = 1; args=(1,); alias=default
+DEBUG 2024-12-12 05:39:21,499 utils (0.000) INSERT OR IGNORE INTO "accomodation_hotel_amenities" ("hotel_id", "amenity_id") VALUES (1, 1); args=(1, 1); alias=default
+DEBUG 2024-12-12 05:39:21,500 utils (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES ('2024-12-12 13:39:21.499174', 1, 13, '1', 'lavila', 1, '[{"added": {}}]') RETURNING "django_admin_log"."id"; args=('2024-12-12 13:39:21.499174', 1, 13, '1', 'lavila', 1, '[{"added": {}}]'); alias=default
+DEBUG 2024-12-12 05:39:21,504 utils (0.000) COMMIT; args=None; alias=default
+INFO 2024-12-12 05:39:21,509 basehttp "POST /admin/accomodation/hotel/add/ HTTP/1.1" 302 0
+DEBUG 2024-12-12 05:39:21,509 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:39:21.509005' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:39:21.509005', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:39:21,509 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:39:21,509 utils (0.000) SELECT "accomodation_amenity"."id", "accomodation_amenity"."name" FROM "accomodation_amenity"; args=(); alias=default
+DEBUG 2024-12-12 05:39:21,509 utils (0.000) SELECT COUNT(*) AS "__count" FROM "accomodation_hotel"; args=(); alias=default
+DEBUG 2024-12-12 05:39:21,509 utils (0.000) SELECT COUNT(*) AS "__count" FROM "accomodation_hotel"; args=(); alias=default
+DEBUG 2024-12-12 05:39:21,520 utils (0.000) SELECT "accomodation_hotel"."id", "accomodation_hotel"."name", "accomodation_hotel"."slug", "accomodation_hotel"."description", "accomodation_hotel"."location", "accomodation_hotel"."rating", "accomodation_hotel"."price_range", "accomodation_hotel"."email", "accomodation_hotel"."phone" FROM "accomodation_hotel" ORDER BY "accomodation_hotel"."id" DESC; args=(); alias=default
+INFO 2024-12-12 05:39:21,534 basehttp "GET /admin/accomodation/hotel/ HTTP/1.1" 200 17339
+DEBUG 2024-12-12 05:39:21,554 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:39:21.550652' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:39:21.550652', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:39:21,555 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+INFO 2024-12-12 05:39:21,558 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-12 05:39:21,575 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-12-12 05:39:21,591 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-12-12 05:41:09,844 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-12-12 05:41:10,699 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 05:41:12,236 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 05:41:12,239 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 05:42:10,054 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-12-12 05:42:11,079 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 05:42:12,769 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 05:42:12,769 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 05:42:46,759 basehttp "GET /accomodation/hotels HTTP/1.1" 301 0
+DEBUG 2024-12-12 05:42:46,759 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:42:46.759447' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:42:46.759447', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:42:46,769 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:42:46,769 utils (0.000) SELECT "accomodation_hotel"."id", "accomodation_hotel"."name", "accomodation_hotel"."slug", "accomodation_hotel"."description", "accomodation_hotel"."location", "accomodation_hotel"."rating", "accomodation_hotel"."price_range", "accomodation_hotel"."email", "accomodation_hotel"."phone" FROM "accomodation_hotel"; args=(); alias=default
+ERROR 2024-12-12 05:42:46,952 log Internal Server Error: /accomodation/hotels/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\accomodation\serializers.py", line 28, in get_description
+    return obj.get_description_as_markdown()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\accomodation\models.py", line 32, in get_description_as_markdown
+    return markdown(self.description)
+           ^^^^^^^^
+NameError: name 'markdown' is not defined
+ERROR 2024-12-12 05:42:46,989 basehttp "GET /accomodation/hotels/ HTTP/1.1" 500 137713
+INFO 2024-12-12 05:43:48,329 autoreload C:\Users\User\Desktop\projects\tour\accomodation\models.py changed, reloading.
+INFO 2024-12-12 05:43:49,299 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 05:43:50,969 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 05:43:50,969 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-12-12 05:43:59,313 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:43:59.308634' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:43:59.308634', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:43:59,315 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:43:59,318 utils (0.000) SELECT "accomodation_hotel"."id", "accomodation_hotel"."name", "accomodation_hotel"."slug", "accomodation_hotel"."description", "accomodation_hotel"."location", "accomodation_hotel"."rating", "accomodation_hotel"."price_range", "accomodation_hotel"."email", "accomodation_hotel"."phone" FROM "accomodation_hotel"; args=(); alias=default
+ERROR 2024-12-12 05:43:59,362 log Internal Server Error: /accomodation/hotels/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\accomodation\serializers.py", line 28, in get_description
+    return obj.get_description_as_markdown()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Hotel' object has no attribute 'get_description_as_markdown'
+ERROR 2024-12-12 05:43:59,409 basehttp "GET /accomodation/hotels/ HTTP/1.1" 500 134699
+INFO 2024-12-12 05:45:09,273 autoreload C:\Users\User\Desktop\projects\tour\accomodation\serializers.py changed, reloading.
+INFO 2024-12-12 05:45:10,219 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 05:45:11,819 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 05:45:11,829 utils (0.016) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-12-12 05:45:12,730 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:45:12.727611' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:45:12.727611', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:45:12,732 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:45:12,735 utils (0.000) SELECT "accomodation_hotel"."id", "accomodation_hotel"."name", "accomodation_hotel"."slug", "accomodation_hotel"."description", "accomodation_hotel"."location", "accomodation_hotel"."rating", "accomodation_hotel"."price_range", "accomodation_hotel"."email", "accomodation_hotel"."phone" FROM "accomodation_hotel"; args=(); alias=default
+ERROR 2024-12-12 05:45:12,769 log Internal Server Error: /accomodation/hotels/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\fields.py", line 1869, in to_representation
+    method = getattr(self.parent, self.method_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HotelSerializer' object has no attribute 'get_description'
+ERROR 2024-12-12 05:45:12,831 basehttp "GET /accomodation/hotels/ HTTP/1.1" 500 129257
+INFO 2024-12-12 05:47:03,509 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 05:47:05,020 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 05:47:05,020 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-12-12 05:47:12,982 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:47:12.979563' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:47:12.979563', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:47:12,983 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:47:12,984 utils (0.000) SELECT "accomodation_hotel"."id", "accomodation_hotel"."name", "accomodation_hotel"."slug", "accomodation_hotel"."description", "accomodation_hotel"."location", "accomodation_hotel"."rating", "accomodation_hotel"."price_range", "accomodation_hotel"."email", "accomodation_hotel"."phone" FROM "accomodation_hotel"; args=(); alias=default
+ERROR 2024-12-12 05:47:13,020 log Internal Server Error: /accomodation/hotels/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\projects\tour\venv\Lib\site-packages\rest_framework\fields.py", line 1869, in to_representation
+    method = getattr(self.parent, self.method_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HotelSerializer' object has no attribute 'get_description'
+ERROR 2024-12-12 05:47:13,060 basehttp "GET /accomodation/hotels/ HTTP/1.1" 500 129257
+INFO 2024-12-12 05:49:33,709 autoreload C:\Users\User\Desktop\projects\tour\accomodation\serializers.py changed, reloading.
+INFO 2024-12-12 05:49:34,679 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 05:49:36,383 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 05:49:36,386 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2024-12-12 05:49:39,458 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 13:49:39.456855' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 13:49:39.456855', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 05:49:39,459 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 05:49:39,462 utils (0.000) SELECT "accomodation_hotel"."id", "accomodation_hotel"."name", "accomodation_hotel"."slug", "accomodation_hotel"."description", "accomodation_hotel"."location", "accomodation_hotel"."rating", "accomodation_hotel"."price_range", "accomodation_hotel"."email", "accomodation_hotel"."phone" FROM "accomodation_hotel"; args=(); alias=default
+DEBUG 2024-12-12 05:49:39,464 utils (0.000) SELECT "accomodation_amenity"."id", "accomodation_amenity"."name" FROM "accomodation_amenity" INNER JOIN "accomodation_hotel_amenities" ON ("accomodation_amenity"."id" = "accomodation_hotel_amenities"."amenity_id") WHERE "accomodation_hotel_amenities"."hotel_id" = 1; args=(1,); alias=default
+DEBUG 2024-12-12 05:49:39,472 utils (0.000) SELECT "accomodation_hotelphoto"."id", "accomodation_hotelphoto"."hotel_id", "accomodation_hotelphoto"."image" FROM "accomodation_hotelphoto" WHERE "accomodation_hotelphoto"."hotel_id" = 1; args=(1,); alias=default
+INFO 2024-12-12 05:49:39,525 basehttp "GET /accomodation/hotels/ HTTP/1.1" 200 8090
+INFO 2024-12-12 06:43:20,431 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-12-12 06:43:21,349 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 06:43:22,973 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 06:43:22,978 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 06:43:32,624 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-12-12 06:43:33,500 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 06:43:35,087 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 06:43:35,090 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 06:43:49,122 autoreload C:\Users\User\Desktop\projects\tour\tour\urls.py changed, reloading.
+INFO 2024-12-12 06:43:50,012 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 06:43:51,753 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 06:43:51,756 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 06:43:59,478 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-12 06:44:01,054 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-12-12 06:44:01,057 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+INFO 2024-12-12 06:46:29,577 basehttp "GET /tour-operators HTTP/1.1" 301 0
+DEBUG 2024-12-12 06:46:29,584 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 14:46:29.581265' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 14:46:29.581265', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 06:46:29,585 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 06:46:29,595 utils (0.000) SELECT "tour_operators_touroperator"."id", "tour_operators_touroperator"."name", "tour_operators_touroperator"."slug", "tour_operators_touroperator"."description", "tour_operators_touroperator"."contact_email", "tour_operators_touroperator"."contact_phone", "tour_operators_touroperator"."location", "tour_operators_touroperator"."rating", "tour_operators_touroperator"."active", "tour_operators_touroperator"."featured", "tour_operators_touroperator"."created_at", "tour_operators_touroperator"."updated_at" FROM "tour_operators_touroperator" ORDER BY "tour_operators_touroperator"."created_at" DESC; args=(); alias=default
+INFO 2024-12-12 06:46:29,705 basehttp "GET /tour-operators/ HTTP/1.1" 200 14058
+DEBUG 2024-12-12 06:48:02,795 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-12-12 14:48:02.792448' AND "django_session"."session_key" = '2q9dssibac9v742iuwbtmbkyajjhtk7r') LIMIT 21; args=('2024-12-12 14:48:02.792448', '2q9dssibac9v742iuwbtmbkyajjhtk7r'); alias=default
+DEBUG 2024-12-12 06:48:02,797 utils (0.000) SELECT "users_user"."id", "users_user"."password", "users_user"."last_login", "users_user"."is_superuser", "users_user"."email", "users_user"."fullname", "users_user"."is_active", "users_user"."is_staff", "users_user"."is_verified", "users_user"."profile_image_url", "users_user"."telephone", "users_user"."date_joined", "users_user"."verificationCode" FROM "users_user" WHERE "users_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-12-12 06:48:02,802 utils (0.000) SELECT 1 AS "a" FROM "tour_operators_touroperator" WHERE "tour_operators_touroperator"."name" = 'eritten' LIMIT 1; args=(1, 'eritten'); alias=default
+DEBUG 2024-12-12 06:48:02,804 utils (0.000) SELECT 1 AS "a" FROM "tour_operators_touroperator" WHERE "tour_operators_touroperator"."contact_email" = 'eritten2@gmail.com' LIMIT 1; args=(1, 'eritten2@gmail.com'); alias=default
+DEBUG 2024-12-12 06:48:02,810 utils (0.000) INSERT INTO "tour_operators_touroperator" ("name", "slug", "description", "contact_email", "contact_phone", "location", "rating", "active", "featured", "created_at", "updated_at") VALUES ('eritten', '', 'nice place', 'eritten2@gmail.com', '0596810641', 'accra', '5.00', 1, 1, '2024-12-12 14:48:02.808037', '2024-12-12 14:48:02.808037') RETURNING "tour_operators_touroperator"."id"; args=('eritten', '', 'nice place', 'eritten2@gmail.com', '0596810641', 'accra', '5.00', True, True, '2024-12-12 14:48:02.808037', '2024-12-12 14:48:02.808037'); alias=default
+INFO 2024-12-12 06:48:02,830 basehttp "POST /tour-operators/ HTTP/1.1" 201 11329

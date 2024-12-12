@@ -28,16 +28,15 @@ class CategoryRetrieveView(generics.RetrieveAPIView):
     lookup_field = 'slug'
 
 
+
 class DestinationListView(generics.ListAPIView):
     queryset = Destination.objects.all()
     serializer_class = DestinationListSerializer
     pagination_class = StandardResultsSetPagination
     filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
-    filterset_fields = ['category__slug']
+    filterset_fields = ['category__slug']  # Add this to filter by category slug
     search_fields = ['name', 'short_description', 'location']
     ordering_fields = ['name', 'created_at', 'entrance_fee']
-
-
 class DestinationRetrieveView(generics.RetrieveAPIView):
     queryset = Destination.objects.all()
     serializer_class = DestinationDetailSerializer
@@ -63,4 +62,21 @@ class PopularDestinationsView(APIView):
         ).order_by('-like_count', '-comment_count')[:10]
 
         serializer = DestinationListSerializer(popular_destinations, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+
+class DestinationsByCategoryView(APIView):
+    """
+    View to list destinations under a specific category.
+    """
+
+    def get(self, request, slug):
+        try:
+            category = Category.objects.get(slug=slug)
+        except Category.DoesNotExist:
+            return Response({"detail": "Category not found."}, status=status.HTTP_404_NOT_FOUND)
+
+        destinations = Destination.objects.filter(category=category)
+        serializer = DestinationListSerializer(destinations, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)

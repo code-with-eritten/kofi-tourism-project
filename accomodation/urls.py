@@ -1,14 +1,6 @@
-from rest_framework import viewsets
-from .models import Hotel, Amenity
-from .serializers import HotelSerializer, AmenitySerializer
+from django.urls import path
+from .views import HotelListView
 
-
-class HotelViewSet(viewsets.ModelViewSet):
-    queryset = Hotel.objects.all()
-    serializer_class = HotelSerializer
-    lookup_field = 'slug'
-
-
-class AmenityViewSet(viewsets.ModelViewSet):
-    queryset = Amenity.objects.all()
-    serializer_class = AmenitySerializer
+urlpatterns = [
+    path('hotels/', HotelListView.as_view(), name='hotel-list'),
+]

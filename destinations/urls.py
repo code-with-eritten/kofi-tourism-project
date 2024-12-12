@@ -4,7 +4,8 @@ from .views import (
     CategoryRetrieveView,
     DestinationListView,
     DestinationRetrieveView,
-    PopularDestinationsView
+    PopularDestinationsView,
+    DestinationsByCategoryView,  
 )
 
 
@@ -14,4 +15,5 @@ urlpatterns = [
     path('destinations/', DestinationListView.as_view(), name='destination-list'),
     path('destinations/<slug:slug>/', DestinationRetrieveView.as_view(), name='destination-detail'),
     path('popular-destinations/', PopularDestinationsView.as_view(), name='popular-destinations'),
+        path('destinations/category/<slug:slug>/', DestinationsByCategoryView.as_view(), name='destinations-by-category'),  # New endpoint
 ]

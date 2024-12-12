@@ -28,9 +28,6 @@ class Hotel(models.Model):
             self.slug = slugify(self.name)
         super().save(*args, **kwargs)
 
-    def get_description_as_markdown(self):
-        return markdown(self.description)
-
 
 class HotelPhoto(models.Model):
     hotel = models.ForeignKey(Hotel, related_name='photos', on_delete=models.CASCADE)
