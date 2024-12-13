@@ -233,3 +233,5 @@ LOGGING = {
 CKEDITOR_5_UPLOADS = 'uploads/'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
