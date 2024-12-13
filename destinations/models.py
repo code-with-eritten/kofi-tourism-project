@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from markdownx.models import MarkdownxField
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django_ckeditor_5.fields import CKEditor5Field
-
+from cloudinary.models import CloudinaryField
 
 class Category(models.Model):
     name = models.CharField(max_length=100, unique=True)
@@ -37,7 +37,7 @@ class Destination(models.Model):
 
 class DestinationImage(models.Model):
     destination = models.ForeignKey(Destination, related_name='images', on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='destinations/images/', blank=True, null=False)
+    image = CloudinaryField()
 
     def __str__(self):
         return f"Image for {self.destination.name}"

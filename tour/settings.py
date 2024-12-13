@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'rest_framework',
     #    'ckeditor',
     'django_ckeditor_5',
+        'cloudinary',
+            'cloudinary_storage',
 ]
 
 MIDDLEWARE = [
@@ -235,3 +237,11 @@ CKEDITOR_5_UPLOADS = 'uploads/'
 CORS_ALLOW_ALL_ORIGINS = True
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dlcdmydjd',
+    'API_KEY': '852277879834796',
+    'API_SECRET': 'wNmPx_U0UNEHeEea0xUhsKl96tw',
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'

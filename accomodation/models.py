@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.text import slugify
 from django_ckeditor_5.fields import CKEditor5Field
+from cloudinary.models import CloudinaryField
 
 class Amenity(models.Model):
     name = models.CharField(max_length=50)
@@ -31,4 +32,4 @@ class Hotel(models.Model):
 
 class HotelPhoto(models.Model):
     hotel = models.ForeignKey(Hotel, related_name='photos', on_delete=models.CASCADE)
-    image = models.ImageField(upload_to='hotel_photos')
+    image = CloudinaryField()
